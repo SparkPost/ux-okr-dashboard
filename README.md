@@ -16,6 +16,8 @@ npm run source:all
 npm run start
 ```
 
+---
+
 ### The Graphs
 
 ![Commit Graph](examples/commit.png)
