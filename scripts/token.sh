@@ -19,6 +19,6 @@ for y in {2017..2020}; do
 
         d="${y}-${m}-01"
         git checkout `git rev-list -n 1 --before="${d} 12:00" master`
-        node ../matchbox-okr/scripts/token-count.js $d
+        node ../ux-okr-dashboard/scripts/token-count.js $d
     done
 done

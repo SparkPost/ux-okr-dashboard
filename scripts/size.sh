@@ -19,6 +19,6 @@ for y in {2017..2020}; do
 
         d="${y}-${m}-01"
         git checkout `git rev-list -n 1 --before="${d} 12:00" master`
-        node ../matchbox-okr/scripts/size.js $d
+        node ../ux-okr-dashboard/scripts/size.js $d
     done
 done
