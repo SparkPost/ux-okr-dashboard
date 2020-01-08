@@ -4,7 +4,7 @@ A hacky dashboard that parses through 2web2ui to measure design system efficienc
 
 ```bash
 # To run this dashboard:
-# First clone 2web2ui in a sibling to this one
+# First clone 2web2ui in a sibling directory to this one
 
 # Install dependencies
 npm i 
