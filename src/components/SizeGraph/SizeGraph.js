@@ -1,5 +1,4 @@
 import React from "react"
-import Button from "../button"
 import Graph from "./Graph"
 
 import size from "../../raw-data/size.json"

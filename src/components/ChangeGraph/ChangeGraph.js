@@ -3,12 +3,9 @@ import { Bar } from "@vx/shape"
 import { Group } from "@vx/group"
 import { scaleBand, scaleLinear } from "@vx/scale"
 import Button from "../button"
-import _ from "lodash"
 import moment from "moment"
 
 import getData from "./data"
-
-const USE_WEEK = true
 
 function ChangeGraph(props) {
   const [selected, setSelected] = React.useState({})
@@ -156,6 +153,7 @@ function ChangeGraph(props) {
                 : null}
             </ul>
           </div>
+          test
         </div>
       )}
     </>

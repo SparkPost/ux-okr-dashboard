@@ -7,24 +7,30 @@ import _ from "lodash"
 
 import data from "../raw-data/token-count-raw.json"
 
-function Graph({ xKey = "css", onClick }) {
-  const dataMap = _.sortBy(
-    Object.keys(data).reduce((acc, key) => {
-      acc.push({ date: key, ...data[key] })
-      return acc
-    }, []),
-    ["date"]
-  )
+function Graph({ xKey = "css", onClick, dataSet }) {
+  let dataMap = dataSet;
+
+  if (!dataSet) {
+    dataMap = _.sortBy(
+      Object.keys(data).reduce((acc, key) => {
+        acc.push({ date: key, ...data[key] })
+        return acc
+      }, []),
+      ["date"]
+    )
+  }
 
   const x = d => d.date
   const y = d => d[xKey]
+
+  const minValue = Math.min(...dataMap.map(y));
+  const isNegative = minValue < 0;
 
   const width = 800
   const height = 300
 
   const xMax = width
   const yMax = height - 90
-  const yMin = 0
 
   // scales
   const xScale = scaleBand({
@@ -33,8 +39,8 @@ function Graph({ xKey = "css", onClick }) {
     padding: 0.06,
   })
   const yScale = scaleLinear({
-    rangeRound: [yMax, yMin],
-    domain: [0, Math.max(...dataMap.map(y))],
+    rangeRound: [yMax, 0],
+    domain: [0, isNegative ? Math.max(...dataMap.map(y)) * 2 : Math.max(...dataMap.map(y))],
   })
 
   return (
@@ -47,6 +53,14 @@ function Graph({ xKey = "css", onClick }) {
 
           const barX = xScale(letter)
           let barY = yMax - barHeight
+
+          if (isNegative && barHeight < 0) {
+              barY = ((yMax - barHeight) / 2 + barHeight / 2) + 30
+            }
+
+            if (isNegative && barHeight > 0) {
+              barY = ((yMax - barHeight) / 2 - barHeight / 2) + 30
+            }
 
           return (
             <Group
