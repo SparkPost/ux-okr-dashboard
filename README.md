@@ -1,6 +1,6 @@
 ## UX Team OKR Dashboard
 
-[View Dashboard](https://matchbox-okr.jambas.now.sh/) (Temporary)
+[View Dashboard](https://ux-okr-dashboard.netlify.com/)
 
 A hacky dashboard that parses through 2web2ui to measure design system efficiency.
 
