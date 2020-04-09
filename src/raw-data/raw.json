@@ -1,5 +1,997 @@
 [
   {
+    "commit": "e87a94bb15c577fc195a1734feccc80b19c4fd86",
+    "date": "2020-03-11",
+    "changes": [
+      {
+        "path": "src/components/layout/Layout.module.scss",
+        "insertions": 3,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "483bac9f9f71a6052bc733a36eb0127584e01ee2",
+    "date": "2020-03-10",
+    "changes": [
+      {
+        "path": "src/components/hibana/DesktopNavigation.module.scss",
+        "insertions": 4,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "7ad1e8bc5886c8b5c0f9f942c5d37950fba44e64",
+    "date": "2020-03-10",
+    "changes": [
+      {
+        "path": "src/components/loading/LoadingHibana.module.scss",
+        "insertions": 0,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "7d1f3030cdf4fb034e6e32afdc079f6982403f63",
+    "date": "2020-03-10",
+    "changes": [
+      {
+        "path": "src/components/loading/LoadingHibana.module.scss",
+        "insertions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "161bc5542054082fdeff7be654c991e082bc0869",
+    "date": "2020-03-10",
+    "changes": [
+      {
+        "path": "src/components/hibana/DesktopNavigation.module.scss",
+        "insertions": 18,
+        "deletions": 16
+      }
+    ]
+  },
+  {
+    "commit": "e4b791a9a9a394327984359db394c6daf1bed01f",
+    "date": "2020-03-10",
+    "changes": [
+      {
+        "path": "src/components/hibana/DesktopNavigation.module.scss",
+        "insertions": 6,
+        "deletions": 1
+      },
+      {
+        "path": "src/components/hibana/MobileNavigation.module.scss",
+        "insertions": 10,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "56a0bd32b9bdb45a173d9aadf572de5ba8ae6eb4",
+    "date": "2020-03-10",
+    "changes": [
+      {
+        "path": "src/components/hibana/DesktopNavigation.module.scss",
+        "insertions": 2,
+        "deletions": 1
+      },
+      {
+        "path": "src/components/layout/LayoutHibana.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "ed89ac9a61bf7a8d219050690cbf41c896477d35",
+    "date": "2020-03-10",
+    "changes": [
+      {
+        "path": "src/components/hibana/DesktopNavigation.module.scss",
+        "insertions": 36,
+        "deletions": 11
+      },
+      {
+        "path": "src/components/layout/LayoutHibana.module.scss",
+        "insertions": 7,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "7cb8121e80f4b8941d26d4ab97111a91ed79e0b1",
+    "date": "2020-03-10",
+    "changes": [
+      {
+        "path": "src/components/hibana/DesktopNavigation.module.scss",
+        "insertions": 56,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "0e7c79b447af3e0539eb01f93c64741b207a0a46",
+    "date": "2020-03-10",
+    "changes": [
+      {
+        "path": "src/components/hibana/DesktopNavigation.module.scss",
+        "insertions": 30,
+        "deletions": 1
+      },
+      {
+        "path": "src/components/layout/LayoutHibana.module.scss",
+        "insertions": 7,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "2943fed3d840b6cfed123d67343c6209a30e4688",
+    "date": "2020-03-09",
+    "changes": [
+      {
+        "path": "src/components/layout/LayoutHibana.module.scss",
+        "insertions": 3,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "f4634dc7c5a4430a9982ad47f52ddf299c61c88c",
+    "date": "2020-03-09",
+    "changes": [
+      {
+        "path": "src/components/hibana/HibanaComponents.module.scss",
+        "insertions": 30,
+        "deletions": 33
+      },
+      { "path": "src/index.scss", "insertions": 0, "deletions": 4 }
+    ]
+  },
+  {
+    "commit": "a83e50b8b42993909235c6085bb8bb651cf72095",
+    "date": "2020-03-09",
+    "changes": [
+      {
+        "path": "src/components/hibana/HibanaComponents.module.scss",
+        "insertions": 33,
+        "deletions": 30
+      },
+      { "path": "src/index.scss", "insertions": 4, "deletions": 0 }
+    ]
+  },
+  {
+    "commit": "6b36f3b5646ebd9c61de781085dde3bff991f7f0",
+    "date": "2020-03-09",
+    "changes": [
+      {
+        "path": "src/components/hibana/DesktopNavigation.module.scss",
+        "insertions": 10,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "c5312f25c9a1aa1555ae182dc4fb5d3af9298dd9",
+    "date": "2020-03-11",
+    "changes": []
+  },
+  {
+    "commit": "35378785689961dd75c956d9760239aa2f3a0bd8",
+    "date": "2020-03-09",
+    "changes": []
+  },
+  {
+    "commit": "8ed9cc1cf64170fc3e5ec776295e3a49af57415e",
+    "date": "2020-03-05",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/AccountDropdown.module.scss",
+        "insertions": 6,
+        "deletions": 0
+      },
+      {
+        "path": "src/components/navigation/components/Top.module.scss",
+        "insertions": 12,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "2dd97ce9c9d1eb85ac52c427f116f059e0f56c4c",
+    "date": "2020-03-05",
+    "changes": []
+  },
+  {
+    "commit": "a456a4eca0b8ebaa6fced686155fa84c268118c1",
+    "date": "2020-03-05",
+    "changes": [
+      {
+        "path": "src/pages/dataPrivacy/components/ApiDetailsTab.module.scss",
+        "insertions": 0,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "a8f97f5bcbae2b4d47581bcee0fd225eef582a4d",
+    "date": "2020-03-04",
+    "changes": [
+      {
+        "path": "src/components/cookieConsent/CookieConsent.module.scss",
+        "insertions": 0,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "daafff1edac1e6640913ce4fdccf0ab404503bae",
+    "date": "2020-03-04",
+    "changes": [
+      {
+        "path": "src/pages/dataPrivacy/DataPrivacyPage.module.scss",
+        "insertions": 0,
+        "deletions": 10
+      },
+      {
+        "path": "src/pages/dataPrivacy/components/ApiDetailsTab.module.scss",
+        "insertions": 11,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "b66e49bd8640ac4ba391014e90d6f5337acbb456",
+    "date": "2020-03-04",
+    "changes": []
+  },
+  {
+    "commit": "1df398253ab45aeb8c5bc749b0eeac06a1b35107",
+    "date": "2020-03-04",
+    "changes": [
+      {
+        "path": "src/pages/dataPrivacy/DataPrivacyPage.module.scss",
+        "insertions": 18,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "079387a6163ada41c35b9bc3a6b9886034595fab",
+    "date": "2020-03-02",
+    "changes": [
+      {
+        "path": "src/components/hibana/HibanaComponents.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "1df53819c5c0e749b17cd27269898fd44d21d1c7",
+    "date": "2020-03-02",
+    "changes": []
+  },
+  {
+    "commit": "91c03a6f40ed6405d3b7ed019099a686af5efc08",
+    "date": "2020-03-02",
+    "changes": [
+      {
+        "path": "src/components/navigation/Navigation.module.scss",
+        "insertions": 2,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "bd0a1af5bdc2169d5ce0b3c5ef4eb8f34a4c3b96",
+    "date": "2020-02-27",
+    "changes": [
+      {
+        "path": "src/components/hibana/HibanaComponents.module.scss",
+        "insertions": 2,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "47dfa8236ba97b6832cb5b5f0f50a116f5215e9e",
+    "date": "2020-02-27",
+    "changes": [
+      {
+        "path": "src/components/hibana/HibanaComponents.module.scss",
+        "insertions": 2,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "cc3ef3a5628dfa3a301396fd69a378b70d6dba21",
+    "date": "2020-02-27",
+    "changes": [
+      {
+        "path": "src/components/hibana/HibanaComponents.module.scss",
+        "insertions": 19,
+        "deletions": 15
+      }
+    ]
+  },
+  {
+    "commit": "ab09cdec444640002bbc17db276dc52a09f5b880",
+    "date": "2020-02-27",
+    "changes": [
+      {
+        "path": "src/components/hibana/HibanaComponents.module.scss",
+        "insertions": 14,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "a100f9c8de78f6e129e0b6af24ebc1a6786d9fa3",
+    "date": "2020-02-26",
+    "changes": [
+      {
+        "path": "src/components/hibana/HibanaComponents.module.scss",
+        "insertions": 2,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "3099109994268116a96c7c9c51692eef9f63ee6d",
+    "date": "2020-02-26",
+    "changes": [
+      {
+        "path": "src/components/hibana/HibanaComponents.module.scss",
+        "insertions": 21,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "3b65c6b13e5a6e4af4a63ee32f5dec5779d83373",
+    "date": "2020-02-26",
+    "changes": [
+      {
+        "path": "src/components/navigation/Navigation.module.scss",
+        "insertions": 3,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "54cd2aa1f506a49685f1159f2fbafeafe083592d",
+    "date": "2020-02-26",
+    "changes": [
+      {
+        "path": "src/components/hibana/HibanaComponents.module.scss",
+        "insertions": 3,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "46fd99011c067f1c500e6387fe4f113852c3b88b",
+    "date": "2020-02-25",
+    "changes": [
+      {
+        "path": "src/components/hibana/HibanaComponents.module.scss",
+        "insertions": 7,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "eca24e6678ad6a5384249d037a7ab2b5740e0c45",
+    "date": "2020-02-25",
+    "changes": []
+  },
+  {
+    "commit": "f32f1b717bae828ac8831346f58b4b0f9c765ea9",
+    "date": "2020-02-11",
+    "changes": [
+      {
+        "path": "src/pages/billing/forms/{NewChangePlanForm.module.scss=>ChangePlanForm.module.scss}",
+        "insertions": 2,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "90fe6f417aeaa6d859e463b7db10a03c1bcbd5d6",
+    "date": "2020-02-18",
+    "changes": [
+      {
+        "path": "src/components/collection/FilterSortCollection.module.scss",
+        "insertions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "41679cb49fd58d4a690ecafb8b74d328f7a4a110",
+    "date": "2020-02-21",
+    "changes": []
+  },
+  {
+    "commit": "262d872aebb73ec39aa7b2bdb01a11f3410417f5",
+    "date": "2020-02-21",
+    "changes": []
+  },
+  {
+    "commit": "6259a646590dab860f2c724bf6119041e5ff685f",
+    "date": "2020-02-21",
+    "changes": [
+      {
+        "path": "src/pages/onboarding/RVBundlePage.module.scss",
+        "insertions": 2,
+        "deletions": 9
+      }
+    ]
+  },
+  {
+    "commit": "0a5f3383af5acd527422aebf1276efa66656f33a",
+    "date": "2020-02-20",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/FeatureChangeSection.module.scss",
+        "insertions": 4,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "9c70c794ef819486b6d8c1cfe182778dfa1db9e8",
+    "date": "2020-02-20",
+    "changes": [
+      {
+        "path": "src/pages/onboarding/RVBundlePage.module.scss",
+        "insertions": 24,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "ad0d3ef2d394a84a785592e7157f154727e4c348",
+    "date": "2020-02-20",
+    "changes": [
+      {
+        "path": "src/pages/onboarding/RVBundlePage.module.scss",
+        "insertions": 6,
+        "deletions": 8
+      }
+    ]
+  },
+  {
+    "commit": "3981ef3716d2f04844def926776ce0e83d725944",
+    "date": "2020-02-19",
+    "changes": [
+      {
+        "path": "src/pages/onboarding/RVBundlePage.module.scss",
+        "insertions": 48,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "4d934f00c384b6a8c42616a55e032bd208dee9c3",
+    "date": "2020-02-04",
+    "changes": [
+      {
+        "path": "src/pages/signals/components/filters/FacetFilter.module.scss",
+        "insertions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "ae857f516e575cd1a223693c8b61735281e40a15",
+    "date": "2020-02-10",
+    "changes": []
+  },
+  {
+    "commit": "b7fe21cef0234b5bf695146299cf1315d77de4d1",
+    "date": "2020-02-06",
+    "changes": [
+      {
+        "path": "src/pages/reports/components/Typeahead.module.scss",
+        "insertions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "b5d3850093209f4e2f47293040e88d9dd45cb699",
+    "date": "2020-02-06",
+    "changes": []
+  },
+  {
+    "commit": "004a809a7f2b8c24ede1413164d823ac0c0c3c5b",
+    "date": "2020-02-06",
+    "changes": []
+  },
+  {
+    "commit": "6fd6b76a47578e960b21f1fe28691429b1088ab5",
+    "date": "2020-02-06",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/components/IncidentsCollection.module.scss",
+        "insertions": 0,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "773ba12dc0c41da8117cb8ad92add01ffd9f8c1c",
+    "date": "2020-01-31",
+    "changes": [
+      {
+        "path": "src/pages/reports/messageEvents/components/SearchForm.module.scss",
+        "insertions": 4,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "c43877beea323fbce37ef73bd15f0e9cabc713ae",
+    "date": "2020-01-30",
+    "changes": [
+      {
+        "path": "src/pages/reports/messageEvents/components/MessageEventsSearch.module.scss",
+        "insertions": 5,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "6101abf7193a4040510e544870eab89c17e1b5e9",
+    "date": "2020-02-04",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/RecipientValidationPage.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "e62ad72dcd957778589b829d35edb9ca02dfdb1f",
+    "date": "2020-02-04",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/RecipientValidationPage.module.scss",
+        "insertions": 24,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "0dbe988e2f5366d68ad7f0f04517003567f3b396",
+    "date": "2020-01-29",
+    "changes": [
+      {
+        "path": "src/pages/suppressions/components/EmailSearch.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "bc0fd711b4f15ef198286e96f085bbcc6f8056eb",
+    "date": "2020-01-27",
+    "changes": [
+      {
+        "path": "src/components/datePicker/DatePicker.module.scss",
+        "insertions": 4,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "937f9a1ee43d0dbbfefdd9b251fff4e1f9b943a4",
+    "date": "2020-02-03",
+    "changes": []
+  },
+  {
+    "commit": "f0f072f724c49c757d3ebe46657ae32ef6236f35",
+    "date": "2020-02-03",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/components/SingleAddressForm.module.scss",
+        "insertions": 0,
+        "deletions": 10
+      }
+    ]
+  },
+  {
+    "commit": "1b76843a2b1ac5e0a5dea67924a62682a90b888b",
+    "date": "2020-02-03",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/components/SingleAddressForm.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "5deacfabb2386942ddbc2daf3b33bb594b45ae43",
+    "date": "2020-02-03",
+    "changes": []
+  },
+  {
+    "commit": "4375b5a68cf84206d37c52eb967b5e16243f8a2f",
+    "date": "2020-02-03",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/components/SingleAddressForm.module.scss",
+        "insertions": 20,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "1c4e8e12063ef97c0a2af8b78fda95fc93c76fc0",
+    "date": "2020-01-31",
+    "changes": []
+  },
+  {
+    "commit": "b328e75d0df32d8b224a9abe7971dfc8a39c3a9d",
+    "date": "2020-01-24",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/components/SingleAddressForm.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "0f65270929291c64ec4c09ef7f08761f8024cab6",
+    "date": "2020-01-29",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/components/IncidentsCollection.module.scss",
+        "insertions": 3,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "d49aeb72d0942f9ce964fedb1c5cbc3364252f26",
+    "date": "2020-01-29",
+    "changes": [
+      {
+        "path": "src/pages/reports/messageEvents/MessageEventsPage.module.scss",
+        "insertions": 5,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "8e39a3fd9d3e15d5aefc2dac23216cb571cab81f",
+    "date": "2020-01-22",
+    "changes": [
+      {
+        "path": "src/{components/billing=>pages/billing/forms}/UpdatePaymentForm.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "4dc79bc8eadc3dd74ddff7e04e10d33e11057fed",
+    "date": "2020-01-21",
+    "changes": [
+      {
+        "path": "src/components/billing/BillingAddressForm.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      },
+      {
+        "path": "src/components/billing/UpdatePaymentForm.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "f72c6bc81415b9ad68d7394429a4dc5a8be35015",
+    "date": "2020-01-06",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/components/SingleAddressForm.module.scss",
+        "insertions": 6,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "9d68cbcc1b16f5a8dcd02c2521d9d6bcb08056e4",
+    "date": "2020-01-21",
+    "changes": [
+      {
+        "path": "src/components/globalAlert/Animator.module.scss",
+        "insertions": 6,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "50ff78c8b963ac1c342d417426ea40ca3494aeb1",
+    "date": "2020-01-15",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/components/JobStatusTag.module.scss",
+        "insertions": 6,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "17925b13a394a8c46793356173152a7007dc4eed",
+    "date": "2020-01-14",
+    "changes": []
+  },
+  {
+    "commit": "fd7af982a4c286e02fe8badb8ed98fe1fd8f2bbe",
+    "date": "2020-01-13",
+    "changes": []
+  },
+  {
+    "commit": "125e975959a5e66d8784e10d4ab2e7f8c20d0d3c",
+    "date": "2020-01-09",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/components/IncidentsCollection.module.scss",
+        "insertions": 18,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "ee816ef265334954df6d63f0d5630e47973646d3",
+    "date": "2020-01-09",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/components/RelatedIncidents.module.scss",
+        "insertions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "caa05fbd024068d5635a67cb944d06ed1733cd5d",
+    "date": "2020-01-09",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/SingleResult.module.scss",
+        "insertions": 4,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "d33ac8e3d913a770240743fbae46f6790eb158c4",
+    "date": "2020-01-09",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/SingleResult.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "5fd348017213b2c186fded7f75bbac3ba2e540dd",
+    "date": "2020-01-09",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/SingleResult.module.scss",
+        "insertions": 35,
+        "deletions": 22
+      }
+    ]
+  },
+  {
+    "commit": "4d22d2edad000f8c236549003fb0a299d6c865dd",
+    "date": "2020-01-08",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/SingleResult.module.scss",
+        "insertions": 6,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "f52a94eae8d7588220aaa8592e6c54dde690926e",
+    "date": "2020-01-08",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/SingleResult.module.scss",
+        "insertions": 12,
+        "deletions": 18
+      }
+    ]
+  },
+  {
+    "commit": "bd01daad766fab5b492b22cf7a23ea1aeb1c562b",
+    "date": "2020-01-08",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/SingleResult.module.scss",
+        "insertions": 7,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "bc83639a87bd15e79fb974836bca08455eea360e",
+    "date": "2020-01-08",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/SingleResult.module.scss",
+        "insertions": 8,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "af2216456a93e842e3a744b4d410f183350a8b00",
+    "date": "2020-01-08",
+    "changes": []
+  },
+  {
+    "commit": "bac570b09db9a961b47ac264f86c2682e58ae561",
+    "date": "2020-01-07",
+    "changes": []
+  },
+  {
+    "commit": "74d26ff3ec2b5e8a8bdfcae59cda77bc1f7505d9",
+    "date": "2020-01-07",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 3,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "ba42a9f5151769eddb94ae99c9663026786fd2a9",
+    "date": "2020-01-06",
+    "changes": [
+      {
+        "path": "src/pages/dashboard/components/FeaturesStep.module.scss",
+        "insertions": 11,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/dashboard/components/GettingStartedGuide.module.scss",
+        "insertions": 0,
+        "deletions": 21
+      },
+      {
+        "path": "src/pages/dashboard/components/SendingStep.module.scss",
+        "insertions": 15,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "67bd49db833e0d3aafa746aa52387dd4d2589b69",
+    "date": "2020-01-02",
+    "changes": [
+      {
+        "path": "src/pages/dashboard/components/TutorialItem.module.scss",
+        "insertions": 0,
+        "deletions": 62
+      },
+      {
+        "path": "src/pages/onboarding/components/Steps.module.scss",
+        "insertions": 0,
+        "deletions": 31
+      }
+    ]
+  },
+  {
+    "commit": "7c73278e7c92e6918d734f39c86bd6c534228bd4",
+    "date": "2020-01-06",
+    "changes": []
+  },
+  {
+    "commit": "4e2a74c157fa16874db25aab980c143f77d05a43",
+    "date": "2020-01-06",
+    "changes": []
+  },
+  {
+    "commit": "a51cae810dc593bf33a91bffaaa61b8ca9d8023e",
+    "date": "2020-01-06",
+    "changes": []
+  },
+  {
+    "commit": "4a3b035d1d570b5e59e3b0e1c96ea23bedbf057e",
+    "date": "2020-01-06",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/components/IncidentDetails.module.scss",
+        "insertions": 7,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/blacklist/components/RelatedIncidents.module.scss",
+        "insertions": 13,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "b12f5cf4e736c332c00bac0e166c5f9bb7198f19",
+    "date": "2020-01-06",
+    "changes": [
+      {
+        "path": "src/pages/dashboard/components/GuideListItem.module.scss",
+        "insertions": 11,
+        "deletions": 10
+      }
+    ]
+  },
+  {
+    "commit": "b231fb6edd0a4b588fd25475aca4e671ac8f0269",
+    "date": "2020-01-02",
+    "changes": []
+  },
+  {
+    "commit": "a640a69d14074cc34e2c9d44154e0b421a817f64",
+    "date": "2020-01-02",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/components/StopMonitoringModal.module.scss",
+        "insertions": 8,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "27e991e0a1d09fa2528eee79bac994d529bb2e67",
+    "date": "2020-01-02",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/{WatchListPage.module.scss=>WatchlistPage.module.scss}",
+        "insertions": 0,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "1f58aec10b23e8a42b816f3e894184af786d0751",
+    "date": "2020-01-02",
+    "changes": [
+      {
+        "path": "src/{pages/inboxPlacement/components=>components/collection}/FilterSortCollection.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "3432993814c88651cace55dcc0e04fcb74e1259c",
+    "date": "2019-12-20",
+    "changes": [
+      {
+        "path": "src/components/collection/FilterBox.module.scss",
+        "insertions": 3,
+        "deletions": 0
+      }
+    ]
+  },
+  {
     "commit": "bd059ebcdcd5cc8d0e7e041cb6d372563dd49553",
     "date": "2019-12-30",
     "changes": [
@@ -33,6 +1025,22 @@
       {
         "path": "src/pages/blacklist/components/MonitorsCollection.module.scss",
         "insertions": 21,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "678799a2443a06ec75cca11708d427b8176206d4",
+    "date": "2019-12-26",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/components/IncidentDetails.module.scss",
+        "insertions": 14,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/blacklist/components/RelatedIncidents.module.scss",
+        "insertions": 11,
         "deletions": 0
       }
     ]
