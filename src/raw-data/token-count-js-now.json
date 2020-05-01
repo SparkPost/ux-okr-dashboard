@@ -1,20 +1,26 @@
 {
-  "date": "2020-04-01",
+  "date": "2020-05-01",
   "data": [
     { "file": "BarChart.js", "code": "stroke='#e1e1e6'", "line": 54 },
     { "file": "BarChart.js", "code": "activeFill: '#22838A',", "line": 142 },
     { "file": "BarChart.js", "code": "fill: '#B3ECEF',", "line": 143 },
     {
-      "file": "TooltipMetric.js",
-      "code": "const TooltipMetric = ({ color = '#6e6e73', description, label, value }) => (",
-      "line": 4
+      "file": "Legend.js",
+      "code": "borderColor={hasBorder ? '#00000' : undefined}",
+      "line": 39
     },
-    { "file": "EnableTfaForm.js", "code": "bgColor=\"#FFFFFF\"", "line": 67 },
-    { "file": "EnableTfaForm.js", "code": "fgColor=\"#000000\"", "line": 68 },
+    {
+      "file": "TooltipMetric.js",
+      "code": "export const OGTooltipMetric = ({ color = '#6e6e73', description, label, value }) => (",
+      "line": 6
+    },
+    { "file": "TooltipMetric.js", "code": "color = '#6e6e73',", "line": 19 },
+    { "file": "EnableTfaForm.js", "code": "bgColor=\"#FFFFFF\"", "line": 102 },
+    { "file": "EnableTfaForm.js", "code": "fgColor=\"#000000\"", "line": 103 },
     {
       "file": "DesktopNavigation.js",
       "code": "<a href=\"#main-content\" className={styles.SkipLink}>",
-      "line": 122
+      "line": 118
     },
     {
       "file": "default.js",
@@ -41,18 +47,19 @@
       "code": "<LabelList fill=\"#55555a\" formatter={formatPercent} position=\"right\"/>",
       "line": 39
     },
-    { "file": "TrendsChart.js", "code": "fill: '#203752',", "line": 18 },
-    { "file": "TrendsChart.js", "code": "fill: '#91C5FD',", "line": 23 },
-    { "file": "TrendsChart.js", "code": "fill: '#4194ED',", "line": 28 },
+    { "file": "TrendsChart.js", "code": "fill: '#203752',", "line": 19 },
+    { "file": "TrendsChart.js", "code": "fill: '#91C5FD',", "line": 24 },
+    { "file": "TrendsChart.js", "code": "fill: '#4194ED',", "line": 29 },
     {
       "file": "TrendsChart.js",
       "code": "{ fill: '#ffffff', label: 'No Tests Sent', hasBorder: true },",
-      "line": 36
+      "line": 37
     },
-    { "file": "graphs.js", "code": "color: '#0CBAC7'", "line": 1 },
-    { "file": "graphs.js", "code": "color: '#50D0D9'", "line": 6 },
-    { "file": "graphs.js", "code": "color: '#0CBAC7'", "line": 9 },
-    { "file": "graphs.js", "code": "color: '#00838C'", "line": 12 },
+    { "file": "graphs.js", "code": "color: '#0CBAC7',", "line": 4 },
+    { "file": "graphs.js", "code": "background: '#EEEEEE',", "line": 5 },
+    { "file": "graphs.js", "code": "color: '#50D0D9',", "line": 15 },
+    { "file": "graphs.js", "code": "color: '#0CBAC7',", "line": 18 },
+    { "file": "graphs.js", "code": "color: '#00838C',", "line": 21 },
     { "file": "getStatusProps.js", "code": "fill: '#2AC995',", "line": 7 },
     { "file": "getStatusProps.js", "code": "fill: '#FF594D',", "line": 13 },
     { "file": "getStatusProps.js", "code": "fill: '#FFFFFF',", "line": 20 },
@@ -89,12 +96,12 @@
     {
       "file": "EngagementChart.js",
       "code": "<Bar dataKey=\"value\" fill=\"#37aadc\" isAnimationActive={false}>",
-      "line": 44
+      "line": 43
     },
     {
       "file": "EngagementChart.js",
       "code": "<LabelList fill=\"#55555a\" formatter={formatNumber} position=\"top\" />",
-      "line": 45
+      "line": 44
     },
     { "file": "PercentLabel.js", "code": "stroke=\"#e1e1e6\"", "line": 21 },
     {
