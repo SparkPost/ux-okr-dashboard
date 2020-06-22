@@ -1,5 +1,5 @@
 {
-  "date": "2020-05-01",
+  "date": "2020-06-01",
   "data": [
     { "file": "BarChart.js", "code": "stroke='#e1e1e6'", "line": 54 },
     { "file": "BarChart.js", "code": "activeFill: '#22838A',", "line": 142 },
@@ -12,9 +12,8 @@
     {
       "file": "TooltipMetric.js",
       "code": "export const OGTooltipMetric = ({ color = '#6e6e73', description, label, value }) => (",
-      "line": 6
+      "line": 7
     },
-    { "file": "TooltipMetric.js", "code": "color = '#6e6e73',", "line": 19 },
     { "file": "EnableTfaForm.js", "code": "bgColor=\"#FFFFFF\"", "line": 102 },
     { "file": "EnableTfaForm.js", "code": "fgColor=\"#000000\"", "line": 103 },
     {
@@ -32,34 +31,9 @@
       "code": "export function generateColors(arr, { baseColor = '#123456', rotate = 60, saturate = 0.1 } = {}) {",
       "line": 10
     },
-    {
-      "file": "FolderPlacementBarChart.js",
-      "code": "<text x={0} y={0} textAnchor=\"start\" fill=\"#666\">{payload.value}</text>",
-      "line": 8
-    },
-    {
-      "file": "FolderPlacementBarChart.js",
-      "code": "<Bar dataKey=\"value\" fill=\"#37aadc\" isAnimationActive={false} barSize={25}>",
-      "line": 37
-    },
-    {
-      "file": "FolderPlacementBarChart.js",
-      "code": "<LabelList fill=\"#55555a\" formatter={formatPercent} position=\"right\"/>",
-      "line": 39
-    },
-    { "file": "TrendsChart.js", "code": "fill: '#203752',", "line": 19 },
-    { "file": "TrendsChart.js", "code": "fill: '#91C5FD',", "line": 24 },
-    { "file": "TrendsChart.js", "code": "fill: '#4194ED',", "line": 29 },
-    {
-      "file": "TrendsChart.js",
-      "code": "{ fill: '#ffffff', label: 'No Tests Sent', hasBorder: true },",
-      "line": 37
-    },
+    { "file": "PendingCancelGlobalBanner.js", "code": "to=\"#\"", "line": 52 },
     { "file": "graphs.js", "code": "color: '#0CBAC7',", "line": 4 },
     { "file": "graphs.js", "code": "background: '#EEEEEE',", "line": 5 },
-    { "file": "graphs.js", "code": "color: '#50D0D9',", "line": 15 },
-    { "file": "graphs.js", "code": "color: '#0CBAC7',", "line": 18 },
-    { "file": "graphs.js", "code": "color: '#00838C',", "line": 21 },
     { "file": "getStatusProps.js", "code": "fill: '#2AC995',", "line": 7 },
     { "file": "getStatusProps.js", "code": "fill: '#FF594D',", "line": 13 },
     { "file": "getStatusProps.js", "code": "fill: '#FFFFFF',", "line": 20 },
@@ -78,10 +52,11 @@
       "code": "stroke=\"#2693C3\"",
       "line": 51
     },
+    { "file": "RVBundlePage.js", "code": "href=\"#\"", "line": 69 },
     {
       "file": "AcceptedChart.js",
-      "code": "const primaryColor = '#8CCA3A';",
-      "line": 10
+      "code": "const primaryColor = isHibanaEnabled ? '#429BFF' : '#8CCA3A';",
+      "line": 165
     },
     {
       "file": "BounceChart.js",
@@ -95,13 +70,8 @@
     },
     {
       "file": "EngagementChart.js",
-      "code": "<Bar dataKey=\"value\" fill=\"#37aadc\" isAnimationActive={false}>",
-      "line": 43
-    },
-    {
-      "file": "EngagementChart.js",
-      "code": "<LabelList fill=\"#55555a\" formatter={formatNumber} position=\"top\" />",
-      "line": 44
+      "code": "fill={isHibanaEnabled ? tokens.color_gray_700 : '#55555a'}",
+      "line": 71
     },
     { "file": "PercentLabel.js", "code": "stroke=\"#e1e1e6\"", "line": 21 },
     {
@@ -118,32 +88,17 @@
     {
       "file": "BarChart.js",
       "code": "*    { key: 'bar', fill: '#B157CE' },",
-      "line": 14
+      "line": 25
     },
     {
       "file": "BarChart.js",
       "code": "*    { key: 'foo', fill: '#28C0C4' },",
-      "line": 15
-    },
-    { "file": "BarChart.js", "code": "stroke='#e1e1e6'", "line": 122 },
-    { "file": "BarChart.js", "code": "activeFill: '#22838A',", "line": 198 },
-    { "file": "BarChart.js", "code": "fill: '#B3ECEF',", "line": 199 },
-    { "file": "DivergingBar.js", "code": "fill='#5DCFF5'", "line": 30 },
-    {
-      "file": "DivergingBar.js",
-      "code": "return <Text {...props} fill='#0B83D6'>{label}</Text>;",
-      "line": 44
-    },
-    { "file": "DivergingBar.js", "code": "stroke='#d2d2d7'", "line": 58 },
-    {
-      "file": "DivergingBar.js",
-      "code": "negativeFill: '#DB2F2D',",
-      "line": 117
+      "line": 26
     },
     {
-      "file": "DivergingBar.js",
-      "code": "positiveFill: '#8CBE3C'",
-      "line": 118
+      "file": "BarChart.js",
+      "code": "gridStroke={isHibanaEnabled ? tokens.color_gray_400 : '#E1E1E6'}",
+      "line": 221
     },
     { "file": "LineChart.js", "code": "fill='#5DCFF5'", "line": 53 },
     { "file": "LineChart.js", "code": "stroke='#e1e1e6'", "line": 74 },
@@ -157,33 +112,28 @@
     {
       "file": "FormatRow.js",
       "code": "{ label: 'Accepted', color: '#8CCA3A', value: number_succeeded },",
-      "line": 48
+      "line": 42
     },
     {
       "file": "FormatRow.js",
       "code": "{ label: 'Rejected', color: '#DB2F2D', value: number_failed },",
-      "line": 49
+      "line": 43
     },
     {
       "file": "FormatRow.js",
-      "code": "{ label: 'Duplicates', color: '#FA6423', value: number_duplicates }",
-      "line": 50
+      "code": "{ label: 'Duplicates', color: '#FA6423', value: number_duplicates },",
+      "line": 44
     },
-    {
-      "file": "statusTags.js",
-      "code": "const icon = isError ? <Warning color=\"#fa6423\" /> : <CheckCircle color=\"#9bcd5a\" />;",
-      "line": 14
-    },
-    { "file": "cohorts.js", "code": "fill: '#88E2E7',", "line": 2 },
-    { "file": "cohorts.js", "code": "stroke: '#88E2E7',", "line": 3 },
-    { "file": "cohorts.js", "code": "fill: '#50CFDA',", "line": 8 },
-    { "file": "cohorts.js", "code": "stroke: '#50CFDA',", "line": 9 },
-    { "file": "cohorts.js", "code": "fill: '#29B9C7',", "line": 14 },
-    { "file": "cohorts.js", "code": "stroke: '#29B9C7',", "line": 15 },
-    { "file": "cohorts.js", "code": "fill: '#219EA8',", "line": 20 },
-    { "file": "cohorts.js", "code": "stroke: '#219EA8',", "line": 21 },
-    { "file": "cohorts.js", "code": "fill: '#1A838B',", "line": 26 },
-    { "file": "cohorts.js", "code": "stroke: '#1A838B',", "line": 27 },
+    { "file": "cohorts.js", "code": "OGFill: '#88E2E7',", "line": 4 },
+    { "file": "cohorts.js", "code": "OGStroke: '#88E2E7',", "line": 6 },
+    { "file": "cohorts.js", "code": "OGFill: '#50CFDA',", "line": 12 },
+    { "file": "cohorts.js", "code": "OGStroke: '#50CFDA',", "line": 14 },
+    { "file": "cohorts.js", "code": "OGFill: '#29B9C7',", "line": 20 },
+    { "file": "cohorts.js", "code": "OGStroke: '#29B9C7',", "line": 22 },
+    { "file": "cohorts.js", "code": "OGFill: '#219EA8',", "line": 28 },
+    { "file": "cohorts.js", "code": "OGStroke: '#219EA8',", "line": 30 },
+    { "file": "cohorts.js", "code": "OGFill: '#1A838B',", "line": 36 },
+    { "file": "cohorts.js", "code": "OGStroke: '#1A838B',", "line": 38 },
     {
       "file": "colorMapByRank.js",
       "code": "const GREEN = '#8CCA3A';",
@@ -201,52 +151,22 @@
     },
     {
       "file": "healthScoreThresholds.js",
-      "code": "color: '#FF594D',",
-      "line": 5
-    },
-    {
-      "file": "healthScoreThresholds.js",
-      "code": "barColor: '#FF594D',",
-      "line": 6
-    },
-    {
-      "file": "healthScoreThresholds.js",
-      "code": "color: '#E6B400',",
-      "line": 16
-    },
-    {
-      "file": "healthScoreThresholds.js",
-      "code": "barColor: '#FFDA00',",
-      "line": 17
-    },
-    {
-      "file": "healthScoreThresholds.js",
-      "code": "color: '#2CC995',",
-      "line": 27
-    },
-    {
-      "file": "healthScoreThresholds.js",
-      "code": "barColor: '#2CC995',",
-      "line": 28
-    },
-    {
-      "file": "healthScoreThresholds.js",
       "code": "danger: '#D1E4F4',",
-      "line": 42
-    },
-    {
-      "file": "healthScoreThresholds.js",
-      "code": "warning: '#91C5FD',",
       "line": 43
     },
     {
       "file": "healthScoreThresholds.js",
-      "code": "good: '#4194ED',",
+      "code": "warning: '#91C5FD',",
       "line": 44
     },
+    {
+      "file": "healthScoreThresholds.js",
+      "code": "good: '#4194ED',",
+      "line": 45
+    },
     { "file": "healthScoreV2.js", "code": "stroke: '#d2d2d7',", "line": 7 },
-    { "file": "spamTrapHitTypes.js", "code": "fill: '#50CFDA',", "line": 4 },
-    { "file": "spamTrapHitTypes.js", "code": "fill: '#29B9C7',", "line": 12 },
-    { "file": "spamTrapHitTypes.js", "code": "fill: '#1A838B',", "line": 20 }
+    { "file": "spamTrapHitTypes.js", "code": "OGFill: '#50CFDA',", "line": 6 },
+    { "file": "spamTrapHitTypes.js", "code": "OGFill: '#29B9C7',", "line": 15 },
+    { "file": "spamTrapHitTypes.js", "code": "OGFill: '#1A838B',", "line": 24 }
   ]
 }

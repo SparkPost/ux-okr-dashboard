@@ -14,20 +14,6 @@
     ]
   },
   {
-    "component": "CheckCircle",
-    "count": 8,
-    "files": [
-      "FeatureChangeSection.js",
-      "AllMessagesCollection.js",
-      "RVBundlePage.js",
-      "JobStatusTag.js",
-      "statusTags.js",
-      "ListComponents.js",
-      "RecentActivity.js",
-      "EditAndPreviewPage.js"
-    ]
-  },
-  {
     "component": "InfoOutline",
     "count": 7,
     "files": [
@@ -41,27 +27,16 @@
     ]
   },
   {
-    "component": "ContentCopy",
-    "count": 6,
+    "component": "CheckCircle",
+    "count": 7,
     "files": [
-      "CopyField.js",
-      "CopyToClipboard.js",
-      "DetailsPage.js",
-      "CopyCodes.js",
-      "DuplicateTemplate.js",
-      "ListComponents.js"
-    ]
-  },
-  {
-    "component": "Close",
-    "count": 6,
-    "files": [
-      "Top.js",
-      "FeatureComparisonModal.js",
-      "PendingCancelGlobalBanner.js",
-      "RecipientValidationModal.js",
+      "FeatureChangeSection.js",
+      "AllMessagesCollection.js",
       "RVBundlePage.js",
-      "RVPriceModal.js"
+      "JobStatusTag.js",
+      "ListComponents.js",
+      "RecentActivity.js",
+      "EditAndPreviewPage.js"
     ]
   },
   {
@@ -76,6 +51,28 @@
     ]
   },
   {
+    "component": "ContentCopy",
+    "count": 5,
+    "files": [
+      "CopyField.js",
+      "DetailsPage.js",
+      "CopyCodes.js",
+      "DuplicateTemplate.js",
+      "ListComponents.js"
+    ]
+  },
+  {
+    "component": "Close",
+    "count": 5,
+    "files": [
+      "Top.js",
+      "FeatureComparisonModal.js",
+      "PendingCancelGlobalBanner.js",
+      "RecipientValidationModal.js",
+      "RVPriceModal.js"
+    ]
+  },
+  {
     "component": "Delete",
     "count": 5,
     "files": [
@@ -84,27 +81,6 @@
       "DetailsPage.js",
       "DeleteTemplate.js",
       "ListComponents.js"
-    ]
-  },
-  {
-    "component": "Warning",
-    "count": 5,
-    "files": [
-      "Confirmation.js",
-      "CurrentPlanSection.js",
-      "Actions.js",
-      "statusTags.js",
-      "PreviewErrorFrame.js"
-    ]
-  },
-  {
-    "component": "ArrowForward",
-    "count": 4,
-    "files": [
-      "ManualEntryForm.js",
-      "DateSelector.js",
-      "StatusSection.js",
-      "SkipLink.js"
     ]
   },
   {
@@ -118,6 +94,26 @@
     ]
   },
   {
+    "component": "ChevronRight",
+    "count": 4,
+    "files": [
+      "MobileNavigation.js",
+      "LegendItem.js",
+      "SubaccountFilter.js",
+      "SubaccountOption.js"
+    ]
+  },
+  {
+    "component": "Warning",
+    "count": 4,
+    "files": [
+      "CurrentPlanSection.js",
+      "FeatureChangeSection.js",
+      "Actions.js",
+      "PreviewErrorFrame.js"
+    ]
+  },
+  {
     "component": "Check",
     "count": 4,
     "files": [
@@ -125,16 +121,6 @@
       "PlanSelect.js",
       "Icons.js",
       "SubaccountOption.js"
-    ]
-  },
-  {
-    "component": "CheckCircleOutline",
-    "count": 4,
-    "files": [
-      "GuideListItem.js",
-      "Actions.js",
-      "healthScoreThresholds.js",
-      "SaveAndPublish.js"
     ]
   },
   {
@@ -158,14 +144,14 @@
     "files": ["SortLabel.js", "WoWDataCell.js", "MetricDisplay.js"]
   },
   {
+    "component": "ArrowForward",
+    "count": 3,
+    "files": ["ManualEntryForm.js", "DateSelector.js", "StatusSection.js"]
+  },
+  {
     "component": "Person",
     "count": 3,
     "files": ["AccountPopover.js", "AccountDropdown.js", "PreviewHeader.js"]
-  },
-  {
-    "component": "ChevronRight",
-    "count": 3,
-    "files": ["MobileNavigation.js", "LegendItem.js", "SubaccountOption.js"]
   },
   {
     "component": "Error",
@@ -189,7 +175,12 @@
   {
     "component": "FileDownload",
     "count": 3,
-    "files": ["SeedListPage.js", "DownloadCodes.js", "JobActionLink.js"]
+    "files": ["InvoiceHistory.js", "DownloadCodes.js", "JobActionLink.js"]
+  },
+  {
+    "component": "CheckCircleOutline",
+    "count": 3,
+    "files": ["Actions.js", "healthScoreThresholds.js", "SaveAndPublish.js"]
   },
   {
     "component": "Help",
@@ -219,24 +210,14 @@
     "files": ["DomainStatusTag.js", "healthScoreThresholds.js"]
   },
   {
-    "component": "Schedule",
+    "component": "Add",
     "count": 2,
-    "files": ["DomainStatusTag.js", "TestListPage.js"]
-  },
-  {
-    "component": "Send",
-    "count": 2,
-    "files": ["FeaturesStep.js", "RVBundlePage.js"]
+    "files": ["VariantsFields.js", "ReportOptions.js"]
   },
   {
     "component": "Cached",
     "count": 2,
     "files": ["JobActionLink.js", "JobStatusTag.js"]
-  },
-  {
-    "component": "Refresh",
-    "count": 2,
-    "files": ["RefreshAction.js", "TrackingDomainRow.js"]
   },
   { "component": "CreditCard", "count": 1, "files": ["CardSummary.js"] },
   { "component": "FirstPage", "count": 1, "files": ["CursorPaging.js"] },
@@ -254,6 +235,7 @@
     "count": 1,
     "files": ["ComboBoxTextField.js"]
   },
+  { "component": "Drawer", "count": 1, "files": ["Drawer.js"] },
   { "component": "EmptyState", "count": 1, "files": ["EmptyState.js"] },
   { "component": "Expandable", "count": 1, "files": ["Expandable.js"] },
   { "component": "Grid", "count": 1, "files": ["Grid.js"] },
@@ -290,21 +272,17 @@
   { "component": "Menu", "count": 1, "files": ["Top.js"] },
   { "component": "FileUpload", "count": 1, "files": ["FileFieldWrapper.js"] },
   { "component": "InsertLink", "count": 1, "files": ["AlgoliaResults.js"] },
+  { "component": "Schedule", "count": 1, "files": ["DomainStatusTag.js"] },
   { "component": "ExitToApp", "count": 1, "files": ["account.js"] },
   { "component": "Inbox", "count": 1, "files": ["inboxPlacement.js"] },
   { "component": "Settings", "count": 1, "files": ["settings.js"] },
-  { "component": "Add", "count": 1, "files": ["VariantsFields.js"] },
   { "component": "ViewModule", "count": 1, "files": ["PlanSelect.js"] },
   {
     "component": "ArrowDownward",
     "count": 1,
     "files": ["GettingStartedGuide.js"]
   },
-  {
-    "component": "RadioButtonUnchecked",
-    "count": 1,
-    "files": ["GuideListItem.js"]
-  },
+  { "component": "Send", "count": 1, "files": ["RVBundlePage.js"] },
   { "component": "FileType", "count": 1, "files": ["FileUploadWrapper.js"] },
   {
     "component": "PlaylistAddCheck",
@@ -312,11 +290,8 @@
     "files": ["JobActionLink.js"]
   },
   { "component": "CloudUpload", "count": 1, "files": ["JobStatusTag.js"] },
-  {
-    "component": "Launch",
-    "count": 1,
-    "files": ["RecipientValidationPage.js"]
-  },
+  { "component": "useDrawer", "count": 1, "files": ["ReportOptions.js"] },
+  { "component": "Refresh", "count": 1, "files": ["RefreshAction.js"] },
   { "component": "AddCircleOutline", "count": 1, "files": ["SearchQuery.js"] },
   { "component": "HighlightOff", "count": 1, "files": ["SearchQuery.js"] },
   { "component": "ShowChart", "count": 1, "files": ["ChartType.js"] },
