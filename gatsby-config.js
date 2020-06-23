@@ -2,10 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `UI CSS Changes`,
     description: ``,
-    author: `@gatsbyjs`,
+    author: `@sparkpost`,
   },
   plugins: [
-    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
