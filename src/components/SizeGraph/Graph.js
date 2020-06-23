@@ -2,7 +2,7 @@ import React from "react"
 import { Bar } from "@vx/shape"
 import { Group } from "@vx/group"
 import { scaleBand, scaleLinear } from "@vx/scale"
-import moment from "moment"
+import { getBgFill } from "../getBgFill"
 import _ from "lodash"
 
 import data from "../../raw-data/size.json"
@@ -64,11 +64,7 @@ function Graph({ onClick }) {
                 y={yMax - height}
                 width={barWidth}
                 height={height}
-                fill={
-                  moment(d.date).isBefore("2018-5-20")
-                    ? "rgba(235, 225, 225, 1)"
-                    : "rgba(235, 235, 245, 1)"
-                }
+                fill={getBgFill(d.date)}
               />
               <Bar
                 x={barX}
@@ -90,6 +86,10 @@ function Graph({ onClick }) {
         <rect x={80} fill="rgba(235, 235, 245, 1)" width={10} height={12} />
         <text dx={100} dy={12}>
           Public
+        </text>
+        <rect x={160} fill="rgba(215, 215, 245, 1)" width={10} height={12} />
+        <text dx={180} dy={12}>
+          Hibana
         </text>
       </Group>
     </svg>

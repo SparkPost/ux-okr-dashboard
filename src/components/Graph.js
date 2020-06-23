@@ -2,13 +2,13 @@ import React from "react"
 import { Bar } from "@vx/shape"
 import { Group } from "@vx/group"
 import { scaleBand, scaleLinear } from "@vx/scale"
-import moment from "moment"
 import _ from "lodash"
+import { getBgFill } from "./getBgFill"
 
 import data from "../raw-data/token-count-raw.json"
 
 function Graph({ xKey = "css", onClick, dataSet }) {
-  let dataMap = dataSet;
+  let dataMap = dataSet
 
   if (!dataSet) {
     dataMap = _.sortBy(
@@ -23,8 +23,8 @@ function Graph({ xKey = "css", onClick, dataSet }) {
   const x = d => d.date
   const y = d => d[xKey]
 
-  const minValue = Math.min(...dataMap.map(y));
-  const isNegative = minValue < 0;
+  const minValue = Math.min(...dataMap.map(y))
+  const isNegative = minValue < 0
 
   const width = 800
   const height = 300
@@ -40,7 +40,12 @@ function Graph({ xKey = "css", onClick, dataSet }) {
   })
   const yScale = scaleLinear({
     rangeRound: [yMax, 0],
-    domain: [0, isNegative ? Math.max(...dataMap.map(y)) * 2 : Math.max(...dataMap.map(y))],
+    domain: [
+      0,
+      isNegative
+        ? Math.max(...dataMap.map(y)) * 2
+        : Math.max(...dataMap.map(y)),
+    ],
   })
 
   return (
@@ -55,12 +60,12 @@ function Graph({ xKey = "css", onClick, dataSet }) {
           let barY = yMax - barHeight
 
           if (isNegative && barHeight < 0) {
-              barY = ((yMax - barHeight) / 2 + barHeight / 2) + 30
-            }
+            barY = (yMax - barHeight) / 2 + barHeight / 2 + 30
+          }
 
-            if (isNegative && barHeight > 0) {
-              barY = ((yMax - barHeight) / 2 - barHeight / 2) + 30
-            }
+          if (isNegative && barHeight > 0) {
+            barY = (yMax - barHeight) / 2 - barHeight / 2 + 30
+          }
 
           return (
             <Group
@@ -75,11 +80,7 @@ function Graph({ xKey = "css", onClick, dataSet }) {
                 y={yMax - height}
                 width={barWidth}
                 height={height}
-                fill={
-                  moment(d.date).isBefore("2018-5-20")
-                    ? "rgba(235, 225, 225, 1)"
-                    : "rgba(235, 235, 245, 1)"
-                }
+                fill={getBgFill(d.date)}
               />
               <Bar
                 x={barX}
@@ -101,6 +102,10 @@ function Graph({ xKey = "css", onClick, dataSet }) {
         <rect x={80} fill="rgba(235, 235, 245, 1)" width={10} height={12} />
         <text dx={100} dy={12}>
           Public
+        </text>
+        <rect x={160} fill="rgba(215, 215, 245, 1)" width={10} height={12} />
+        <text dx={180} dy={12}>
+          Hibana
         </text>
       </Group>
     </svg>
