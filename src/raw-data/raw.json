@@ -1,5 +1,128 @@
 [
   {
+    "commit": "99ecdec14a38dc1ffa88b7d46b02d837714469fa",
+    "date": "2020-07-07",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/components/RVPriceModal.module.scss",
+        "insertions": 0,
+        "deletions": 12
+      },
+      {
+        "path": "src/pages/recipientValidation/components/RVPriceModalHibana.module.scss",
+        "insertions": 0,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "0d602aba4daeb0092d1ddf1b54423513b75908f0",
+    "date": "2020-07-02",
+    "changes": [
+      {
+        "path": "src/pages/ipPools/EditPage.module.scss",
+        "insertions": 3,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "199534c66333c822c3d665006f3892e0d7222108",
+    "date": "2020-07-02",
+    "changes": [
+      {
+        "path": "src/pages/sendingDomains/components/Icons.module.scss",
+        "insertions": 2,
+        "deletions": 6
+      },
+      {
+        "path": "src/pages/sendingDomains/components/IconsHibana.module.scss",
+        "insertions": 1,
+        "deletions": 4
+      },
+      {
+        "path": "src/pages/sendingDomains/components/SetupInstructionPanel.module.scss",
+        "insertions": 7,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/sendingDomains/components/SetupInstructionPanelHibana.module.scss",
+        "insertions": 6,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/sendingDomains/components/VerifyEmail.module.scss",
+        "insertions": 0,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "a073be539065041f8169b56edd859e97c83cc986",
+    "date": "2020-07-02",
+    "changes": [
+      {
+        "path": "src/pages/webhooks/components/WebhookFormHibana.module.scss",
+        "insertions": 5,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "e19cabc048c4aef551722e9d17cddd7f2c1b72c1",
+    "date": "2020-06-30",
+    "changes": [
+      {
+        "path": "src/pages/abTesting/components/view/ViewHibana.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "51054c9940ffa49dcd479d20665cd09d52eea3a5",
+    "date": "2020-06-29",
+    "changes": [
+      {
+        "path": "src/components/datePicker/DatePickerHibana.module.scss",
+        "insertions": 4,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/suppressions/ListPage.module.scss",
+        "insertions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "7b283d0302268d016ad73a05a332101ea81ba923",
+    "date": "2020-06-29",
+    "changes": [
+      {
+        "path": "src/components/hibana/AccountPopover.module.scss",
+        "insertions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "src/components/hibana/DesktopNavigation.module.scss",
+        "insertions": 2,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "bb38a3b0c35d5948265924cf97d965143f2c1659",
+    "date": "2020-06-23",
+    "changes": [
+      {
+        "path": "src/components/hibana/DesktopNavigation.module.scss",
+        "insertions": 9,
+        "deletions": 1
+      }
+    ]
+  },
+  {
     "commit": "d7031b0f13b64154285bbe6c12ef696f992c2fc2",
     "date": "2020-06-22",
     "changes": []

@@ -1,5 +1,5 @@
 {
-  "date": "2020-06-01",
+  "date": "2020-07-01",
   "data": [
     {
       "file": "Abbreviation.module.scss",
@@ -136,17 +136,27 @@
       "line": 21
     },
     { "file": "SortLabel.module.scss", "code": "margin-top: 4px;", "line": 25 },
-    { "file": "SortLabelHibana.module.scss", "code": "border: 0;", "line": 6 },
+    {
+      "file": "SortLabelHibana.module.scss",
+      "code": "background: none;",
+      "line": 6
+    },
+    { "file": "SortLabelHibana.module.scss", "code": "border: 0;", "line": 7 },
+    {
+      "file": "SortLabelHibana.module.scss",
+      "code": "background: none;",
+      "line": 8
+    },
     {
       "file": "SortLabelHibana.module.scss",
       "code": "padding: 0;",
-      "line": 38
+      "line": 40
     },
-    { "file": "SortLabelHibana.module.scss", "code": "margin: 0;", "line": 39 },
+    { "file": "SortLabelHibana.module.scss", "code": "margin: 0;", "line": 41 },
     {
       "file": "SortLabelHibana.module.scss",
       "code": "background-color: transparent;",
-      "line": 43
+      "line": 45
     },
     {
       "file": "TableCollection.module.scss",
@@ -269,8 +279,29 @@
     },
     { "file": "ReadyFor.module.scss", "code": "margin-right: 0;", "line": 7 },
     { "file": "Empty.module.scss", "code": "padding: rem(80) 0;", "line": 5 },
+    { "file": "Empty.module.scss", "code": "margin-bottom: 0;", "line": 7 },
     { "file": "FieldSet.module.scss", "code": "margin: 0;", "line": 5 },
     { "file": "FieldSet.module.scss", "code": "padding: 0;", "line": 6 },
+    { "file": "FullBanner.module.scss", "code": "color: white;", "line": 6 },
+    { "file": "FullBanner.module.scss", "code": "color: white;", "line": 25 },
+    {
+      "file": "FullBanner.module.scss",
+      "code": "background: transparent;",
+      "line": 30
+    },
+    { "file": "FullBanner.module.scss", "code": "color: white;", "line": 31 },
+    {
+      "file": "FullBanner.module.scss",
+      "code": "outline-color: white;",
+      "line": 32
+    },
+    {
+      "file": "FullBanner.module.scss",
+      "code": "font-size: 0.875rem;",
+      "line": 43
+    },
+    { "file": "FullBanner.module.scss", "code": "color: white;", "line": 45 },
+    { "file": "FullBanner.module.scss", "code": "color: white;", "line": 49 },
     { "file": "FullPage.module.scss", "code": "z-index: 100;", "line": 12 },
     {
       "file": "FullPage.module.scss",
@@ -340,7 +371,12 @@
     {
       "file": "GlobalAlertHibana.module.scss",
       "code": "z-index: 9999; // Overlay all other overlays!",
-      "line": 5
+      "line": 7
+    },
+    {
+      "file": "GlobalAlertHibana.module.scss",
+      "code": "padding-bottom: 0;",
+      "line": 17
     },
     {
       "file": "GrantsCheckboxes.module.scss",
@@ -360,7 +396,7 @@
     {
       "file": "DesktopNavigation.module.scss",
       "code": "margin: 0 auto;",
-      "line": 18
+      "line": 20
     },
     {
       "file": "DesktopNavigation.module.scss",
@@ -374,33 +410,18 @@
     },
     {
       "file": "HibanaComponents.module.scss",
-      "code": "$static-font-size: 18px;",
-      "line": 4
-    },
-    {
-      "file": "HibanaComponents.module.scss",
       "code": "z-index: 500;",
-      "line": 12
+      "line": 8
     },
     {
       "file": "HibanaComponents.module.scss",
       "code": "background-color: #fff;",
-      "line": 17
-    },
-    {
-      "file": "HibanaComponents.module.scss",
-      "code": "font-size: $static-font-size;",
-      "line": 23
-    },
-    {
-      "file": "HibanaComponents.module.scss",
-      "code": "color: #39444d;",
-      "line": 40
+      "line": 11
     },
     {
       "file": "HibanaComponents.module.scss",
       "code": "margin: 0;",
-      "line": 41
+      "line": 20
     },
     {
       "file": "MobileNavigation.module.scss",
@@ -652,6 +673,11 @@
       "line": 3
     },
     {
+      "file": "BannerHibana.module.scss",
+      "code": "margin-left: unset;",
+      "line": 6
+    },
+    {
       "file": "AccountDropdown.module.scss",
       "code": "margin-top: -0.1em;",
       "line": 29
@@ -842,63 +868,63 @@
     {
       "file": "SummaryTable.module.scss",
       "code": "border-left: none;",
-      "line": 10
+      "line": 4
     },
-    { "file": "SummaryTable.module.scss", "code": "padding: 0;", "line": 11 },
+    { "file": "SummaryTable.module.scss", "code": "padding: 0;", "line": 5 },
     {
       "file": "SummaryTable.module.scss",
       "code": "border-right: none;",
-      "line": 14
+      "line": 8
     },
     {
       "file": "SummaryTable.module.scss",
       "code": "background-color: #fafafa;",
-      "line": 23
+      "line": 17
     },
     {
       "file": "SummaryTable.module.scss",
       "code": "border-left: none;",
-      "line": 25
+      "line": 19
     },
     {
       "file": "SummaryTable.module.scss",
       "code": "border-right: none;",
-      "line": 32
+      "line": 26
     },
     {
       "file": "SummaryTable.module.scss",
       "code": "background: #f2f2f2;",
-      "line": 46
+      "line": 40
     },
     {
       "file": "SummaryTable.module.scss",
       "code": "background: #fafafa;",
-      "line": 53
+      "line": 47
     },
     {
       "file": "SummaryTable.module.scss",
       "code": "border-top: none;",
-      "line": 54
+      "line": 48
     },
     {
       "file": "SummaryTable.module.scss",
       "code": "margin: 0 !important;",
-      "line": 59
+      "line": 53
     },
     {
       "file": "SummaryTable.module.scss",
       "code": "border-left: none;",
-      "line": 64
+      "line": 58
     },
     {
       "file": "SummaryTable.module.scss",
       "code": "font-size: rem(12);",
-      "line": 75
+      "line": 69
     },
     {
       "file": "SummaryTable.module.scss",
       "code": "margin: 0; // override",
-      "line": 88
+      "line": 82
     },
     {
       "file": "SummaryTableHibana.module.scss",
@@ -1322,17 +1348,6 @@
       "code": "padding-top: 10px;",
       "line": 37
     },
-    { "file": "SendingStep.module.scss", "code": "margin: 0;", "line": 13 },
-    {
-      "file": "DataPrivacy.module.scss",
-      "code": "margin-top: 1rem;",
-      "line": 3
-    },
-    {
-      "file": "DataPrivacyPage.module.scss",
-      "code": "margin-bottom: 2rem;",
-      "line": 4
-    },
     {
       "file": "DeliveryHistoryLineChart.module.scss",
       "code": "margin-bottom: 0;",
@@ -1621,15 +1636,16 @@
       "code": "margin-top: 0;",
       "line": 15
     },
+    { "file": "ReportBuilder.module.scss", "code": "margin: 0;", "line": 8 },
     {
       "file": "ReportBuilder.module.scss",
       "code": "margin-top: 0;",
-      "line": 34
+      "line": 28
     },
     {
       "file": "ReportBuilder.module.scss",
       "code": "margin-left: 0;",
-      "line": 35
+      "line": 29
     },
     {
       "file": "CustomReportRow.module.scss",
@@ -1814,6 +1830,11 @@
       "code": "background: #ffffff;",
       "line": 10
     },
+    {
+      "file": "MessageEventsSearchHibana.module.scss",
+      "code": "border-bottom: 0;",
+      "line": 4
+    },
     { "file": "SearchForm.module.scss", "code": "margin: 0;", "line": 9 },
     {
       "file": "SearchForm.module.scss",
@@ -1895,17 +1916,7 @@
       "code": "margin-right: 0;",
       "line": 3
     },
-    { "file": "Actions.module.scss", "code": "margin-bottom: 0;", "line": 22 },
-    {
-      "file": "Actions.module.scss",
-      "code": "padding-top: rem(8);",
-      "line": 56
-    },
-    {
-      "file": "Actions.module.scss",
-      "code": "margin-bottom: rem(23);",
-      "line": 62
-    },
+    { "file": "Actions.module.scss", "code": "margin-bottom: 0;", "line": 17 },
     {
       "file": "ActionsHibana.module.scss",
       "code": "padding: 0; // TODO: Remove when OG theme is removed",
@@ -1934,32 +1945,23 @@
     {
       "file": "ChartHeader.module.scss",
       "code": "margin-bottom: 0;",
-      "line": 10
+      "line": 12
     },
-    {
-      "file": "ChartHeaderHibana.module.scss",
-      "code": "padding: 0;",
-      "line": 3
-    },
-    {
-      "file": "ChartHeaderHibana.module.scss",
-      "code": "margin: 0;",
-      "line": 4
-    },
+    { "file": "ChartHeader.module.scss", "code": "margin: 0;", "line": 17 },
     {
       "file": "ChartHeaderHibana.module.scss",
       "code": "background: none;",
-      "line": 16
+      "line": 12
     },
     {
       "file": "ChartHeaderHibana.module.scss",
       "code": "border-bottom: 0;",
-      "line": 17
+      "line": 13
     },
     {
       "file": "ChartHeaderHibana.module.scss",
       "code": "margin: 0;",
-      "line": 18
+      "line": 14
     },
     { "file": "BarChart.scss", "code": "font-size: 13px;", "line": 6 },
     { "file": "Legend.module.scss", "code": "border-radius: 50%;", "line": 12 },
@@ -2142,6 +2144,7 @@
       "code": "font-size: rem(33);",
       "line": 23
     },
+    { "file": "ListPage.module.scss", "code": "border-bottom: 0;", "line": 2 },
     {
       "file": "EditNavigation.module.scss",
       "code": "background: #fff;",
@@ -2203,7 +2206,7 @@
     {
       "file": "ActionsHibana.module.scss",
       "code": "margin-top: 0;",
-      "line": 47
+      "line": 43
     },
     {
       "file": "EditSection.module.scss",
@@ -2327,20 +2330,35 @@
     {
       "file": "RecentActivity.module.scss",
       "code": "font-size: rem(14);",
-      "line": 28
+      "line": 26
     },
     {
       "file": "RecentActivity.module.scss",
       "code": "font-size: rem(14);",
-      "line": 35
+      "line": 33
     },
-    { "file": "RecentActivity.module.scss", "code": "border: 0;", "line": 36 },
+    { "file": "RecentActivity.module.scss", "code": "border: 0;", "line": 34 },
     {
       "file": "RecentActivity.module.scss",
       "code": "fill: #44d09e;",
-      "line": 45
+      "line": 43
     },
-    { "file": "RecentActivity.module.scss", "code": "padding: 0;", "line": 71 },
+    { "file": "RecentActivity.module.scss", "code": "margin: 0;", "line": 58 },
+    {
+      "file": "RecentActivity.module.scss",
+      "code": "padding-top: 0;",
+      "line": 68
+    },
+    {
+      "file": "RecentActivity.module.scss",
+      "code": "padding-right: 0;",
+      "line": 69
+    },
+    {
+      "file": "RecentActivity.module.scss",
+      "code": "padding-bottom: 0;",
+      "line": 70
+    },
     {
       "file": "RecentActivityHibana.module.scss",
       "code": "margin-bottom: 0;",
@@ -2428,6 +2446,32 @@
     { "file": "_resets.scss", "code": "background: transparent;", "line": 7 },
     { "file": "_resets.scss", "code": "color: inherit;", "line": 9 },
     { "file": "_resets.scss", "code": "border: 0;", "line": 20 },
-    { "file": "_resets.scss", "code": "padding: 0;", "line": 21 }
+    { "file": "_resets.scss", "code": "padding: 0;", "line": 21 },
+    { "file": "_charts.scss", "code": "font-size: 13px;", "line": 7 },
+    { "file": "_charts.scss", "code": "font-size: 13px;", "line": 30 },
+    { "file": "_charts.scss", "code": "font-size: rem(15);", "line": 67 },
+    {
+      "file": "_charts.scss",
+      "code": "margin-bottom: rem(9) !important;",
+      "line": 68
+    },
+    {
+      "file": "_charts.scss",
+      "code": "font-size: rem(13) !important;",
+      "line": 72
+    },
+    { "file": "_charts.scss", "code": "margin: 0 !important;", "line": 73 },
+    { "file": "_charts.scss", "code": "padding: 0 !important;", "line": 74 },
+    { "file": "_charts.scss", "code": "padding-right: rem(55);", "line": 80 },
+    { "file": "_charts.scss", "code": "margin-left: rem(30);", "line": 95 },
+    { "file": "_charts.scss", "code": "padding-top: rem(11);", "line": 96 },
+    { "file": "_charts.scss", "code": "padding-bottom: rem(0);", "line": 97 },
+    {
+      "file": "_charts.scss",
+      "code": "padding: rem(0) rem(15) rem(24) rem(6);",
+      "line": 103
+    },
+    { "file": "_charts.scss", "code": "font-size: rem(13);", "line": 104 },
+    { "file": "_charts.scss", "code": "margin-top: rem(-24);", "line": 108 }
   ]
 }

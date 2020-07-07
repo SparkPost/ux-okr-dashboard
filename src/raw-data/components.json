@@ -14,6 +14,33 @@
     ]
   },
   {
+    "component": "Close",
+    "count": 8,
+    "files": [
+      "FullBanner.js",
+      "HibanaBanner.js",
+      "Top.js",
+      "FeatureComparisonModal.js",
+      "PendingCancelGlobalBanner.js",
+      "RecipientValidationModal.js",
+      "RVPriceModal.js",
+      "AddFiltersSection.js"
+    ]
+  },
+  {
+    "component": "ChevronRight",
+    "count": 7,
+    "files": [
+      "FilterDropdown.js",
+      "MobileNavigation.js",
+      "LegendItem.js",
+      "VariantsView.js",
+      "ViewDetailsButton.js",
+      "SubaccountFilter.js",
+      "SubaccountOption.js"
+    ]
+  },
+  {
     "component": "InfoOutline",
     "count": 7,
     "files": [
@@ -41,46 +68,22 @@
   },
   {
     "component": "Search",
-    "count": 5,
+    "count": 4,
     "files": [
       "FilterBox.js",
       "Typeahead.js",
-      "IncidentsCollection.js",
       "TestDetails.js",
       "FacetFilter.js"
     ]
   },
   {
     "component": "ContentCopy",
-    "count": 5,
+    "count": 4,
     "files": [
       "CopyField.js",
       "DetailsPage.js",
       "CopyCodes.js",
-      "DuplicateTemplate.js",
-      "ListComponents.js"
-    ]
-  },
-  {
-    "component": "Close",
-    "count": 5,
-    "files": [
-      "Top.js",
-      "FeatureComparisonModal.js",
-      "PendingCancelGlobalBanner.js",
-      "RecipientValidationModal.js",
-      "RVPriceModal.js"
-    ]
-  },
-  {
-    "component": "Delete",
-    "count": 5,
-    "files": [
-      "DetailsPage.js",
-      "AlertCollection.js",
-      "DetailsPage.js",
-      "DeleteTemplate.js",
-      "ListComponents.js"
+      "DuplicateTemplate.js"
     ]
   },
   {
@@ -91,16 +94,6 @@
       "NavGroup.js",
       "LegendItem.js",
       "SubaccountFilter.js"
-    ]
-  },
-  {
-    "component": "ChevronRight",
-    "count": 4,
-    "files": [
-      "MobileNavigation.js",
-      "LegendItem.js",
-      "SubaccountFilter.js",
-      "SubaccountOption.js"
     ]
   },
   {
@@ -134,11 +127,6 @@
     ]
   },
   {
-    "component": "MoreHoriz",
-    "count": 3,
-    "files": ["ActionPopover.js", "TestCollection.js", "EditSection.js"]
-  },
-  {
     "component": "ArrowDropUp",
     "count": 3,
     "files": ["SortLabel.js", "WoWDataCell.js", "MetricDisplay.js"]
@@ -168,9 +156,9 @@
     ]
   },
   {
-    "component": "Save",
+    "component": "Delete",
     "count": 3,
-    "files": ["EditMode.js", "ViewMode.js", "CustomReports.js"]
+    "files": ["AlertCollection.js", "DetailsPage.js", "DeleteTemplate.js"]
   },
   {
     "component": "FileDownload",
@@ -183,22 +171,15 @@
     "files": ["Actions.js", "healthScoreThresholds.js", "SaveAndPublish.js"]
   },
   {
+    "component": "MoreHoriz",
+    "count": 2,
+    "files": ["ActionPopover.js", "EditSection.js"]
+  },
+  {
     "component": "Help",
     "count": 2,
     "files": ["StatusTooltipHeader.js", "EditBounce.js"]
   },
-  { "component": "Block", "count": 2, "files": ["Empty.js", "DetailsPage.js"] },
-  {
-    "component": "Button",
-    "count": 2,
-    "files": ["HibanaToggle.js", "Button.js"]
-  },
-  {
-    "component": "OpenInNew",
-    "count": 2,
-    "files": ["ExternalLink.js", "account.js"]
-  },
-  { "component": "Text", "count": 2, "files": ["Text.js", "Heading.js"] },
   {
     "component": "ExpandMore",
     "count": 2,
@@ -210,9 +191,19 @@
     "files": ["DomainStatusTag.js", "healthScoreThresholds.js"]
   },
   {
+    "component": "RemoveCircle",
+    "count": 2,
+    "files": ["VariantsFields.js", "SearchQuery.js"]
+  },
+  {
     "component": "Add",
     "count": 2,
-    "files": ["VariantsFields.js", "ReportOptions.js"]
+    "files": ["VariantsFields.js", "AddFiltersSection.js"]
+  },
+  {
+    "component": "Send",
+    "count": 2,
+    "files": ["RVBundlePage.js", "SendTestEmailButton.js"]
   },
   {
     "component": "Cached",
@@ -223,9 +214,11 @@
   { "component": "FirstPage", "count": 1, "files": ["CursorPaging.js"] },
   { "component": "ArrowBack", "count": 1, "files": ["DateSelector.js"] },
   { "component": "VpnKey", "count": 1, "files": ["EnableTfaForm.js"] },
+  { "component": "OpenInNew", "count": 1, "files": ["ExternalLink.js"] },
   { "component": "ActionList", "count": 1, "files": ["ActionList.js"] },
   { "component": "Banner", "count": 1, "files": ["Banner.js"] },
   { "component": "Box", "count": 1, "files": ["Box.js"] },
+  { "component": "Button", "count": 1, "files": ["Button.js"] },
   { "component": "Checkbox", "count": 1, "files": ["Checkbox.js"] },
   { "component": "CodeBlock", "count": 1, "files": ["CodeBlock.js"] },
   { "component": "ComboBox", "count": 1, "files": ["ComboBox.js"] },
@@ -236,6 +229,7 @@
     "files": ["ComboBoxTextField.js"]
   },
   { "component": "Drawer", "count": 1, "files": ["Drawer.js"] },
+  { "component": "useDrawer", "count": 1, "files": ["Drawer.js"] },
   { "component": "EmptyState", "count": 1, "files": ["EmptyState.js"] },
   { "component": "Expandable", "count": 1, "files": ["Expandable.js"] },
   { "component": "Grid", "count": 1, "files": ["Grid.js"] },
@@ -262,6 +256,7 @@
   { "component": "Table", "count": 1, "files": ["Table.js"] },
   { "component": "Tabs", "count": 1, "files": ["Tabs.js"] },
   { "component": "Tag", "count": 1, "files": ["Tag.js"] },
+  { "component": "Text", "count": 1, "files": ["Text.js"] },
   { "component": "TextField", "count": 1, "files": ["TextField.js"] },
   { "component": "ThemeProvider", "count": 1, "files": ["ThemeProvider.js"] },
   { "component": "Toggle", "count": 1, "files": ["Toggle.js"] },
@@ -273,16 +268,14 @@
   { "component": "FileUpload", "count": 1, "files": ["FileFieldWrapper.js"] },
   { "component": "InsertLink", "count": 1, "files": ["AlgoliaResults.js"] },
   { "component": "Schedule", "count": 1, "files": ["DomainStatusTag.js"] },
-  { "component": "ExitToApp", "count": 1, "files": ["account.js"] },
   { "component": "Inbox", "count": 1, "files": ["inboxPlacement.js"] },
   { "component": "Settings", "count": 1, "files": ["settings.js"] },
   { "component": "ViewModule", "count": 1, "files": ["PlanSelect.js"] },
   {
-    "component": "ArrowDownward",
+    "component": "DoNotDisturbOn",
     "count": 1,
-    "files": ["GettingStartedGuide.js"]
+    "files": ["MonitorsCollection.js"]
   },
-  { "component": "Send", "count": 1, "files": ["RVBundlePage.js"] },
   { "component": "FileType", "count": 1, "files": ["FileUploadWrapper.js"] },
   {
     "component": "PlaylistAddCheck",
@@ -290,10 +283,9 @@
     "files": ["JobActionLink.js"]
   },
   { "component": "CloudUpload", "count": 1, "files": ["JobStatusTag.js"] },
-  { "component": "useDrawer", "count": 1, "files": ["ReportOptions.js"] },
+  { "component": "Save", "count": 1, "files": ["CustomReports.js"] },
   { "component": "Refresh", "count": 1, "files": ["RefreshAction.js"] },
-  { "component": "AddCircleOutline", "count": 1, "files": ["SearchQuery.js"] },
-  { "component": "HighlightOff", "count": 1, "files": ["SearchQuery.js"] },
+  { "component": "AddCircle", "count": 1, "files": ["SearchQuery.js"] },
   { "component": "ShowChart", "count": 1, "files": ["ChartType.js"] },
   { "component": "BarChart", "count": 1, "files": ["ChartType.js"] },
   { "component": "RemoveRedEye", "count": 1, "files": ["ViewPublished.js"] },
