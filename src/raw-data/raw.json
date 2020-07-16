@@ -1,21 +1,5 @@
 [
   {
-    "commit": "99ecdec14a38dc1ffa88b7d46b02d837714469fa",
-    "date": "2020-07-07",
-    "changes": [
-      {
-        "path": "src/pages/recipientValidation/components/RVPriceModal.module.scss",
-        "insertions": 0,
-        "deletions": 12
-      },
-      {
-        "path": "src/pages/recipientValidation/components/RVPriceModalHibana.module.scss",
-        "insertions": 0,
-        "deletions": 4
-      }
-    ]
-  },
-  {
     "commit": "0d602aba4daeb0092d1ddf1b54423513b75908f0",
     "date": "2020-07-02",
     "changes": [
