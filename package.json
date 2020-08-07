@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "SparkPost",
   "dependencies": {
+    "@sparkpost/design-tokens": "^4.0.13",
     "@vx/group": "0.0.190",
     "@vx/scale": "0.0.190",
     "@vx/shape": "0.0.190",

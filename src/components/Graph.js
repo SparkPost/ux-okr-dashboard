@@ -4,7 +4,7 @@ import { Group } from "@vx/group"
 import { scaleBand, scaleLinear } from "@vx/scale"
 import _ from "lodash"
 import { getBgFill } from "./getBgFill"
-
+import { tokens } from "@sparkpost/design-tokens"
 import data from "../raw-data/token-count-raw.json"
 
 function Graph({ xKey = "css", onClick, dataSet }) {
@@ -87,15 +87,15 @@ function Graph({ xKey = "css", onClick, dataSet }) {
                 y={barY}
                 width={barWidth}
                 height={Math.abs(barHeight)}
-                fill="rgba(90, 90, 250, 1)"
+                fill={tokens.color_purple_700}
                 style={{ pointerEvents: "none" }}
               />
             </Group>
           )
         })}
       </Group>
-      <Group left={20} top={yMax + 60}>
-        <rect fill="rgba(235, 225, 225, 1)" width={10} height={12} />
+      {/* <Group left={20} top={yMax + 60}>
+        <rect fill={tokens.color_red_200} width={10} height={12} />
         <text dx={20} dy={12}>
           Beta
         </text>
@@ -107,7 +107,7 @@ function Graph({ xKey = "css", onClick, dataSet }) {
         <text dx={180} dy={12}>
           Hibana
         </text>
-      </Group>
+      </Group> */}
     </svg>
   )
 }

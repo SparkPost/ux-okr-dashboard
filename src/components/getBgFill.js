@@ -1,9 +1,13 @@
 import moment from "moment"
+import { tokens } from "@sparkpost/design-tokens"
 
 export function getBgFill(d) {
-  return moment(d).isBefore("2018-5-20")
-    ? "rgba(235, 225, 225, 1)"
-    : moment(d).isBefore("2020-02-01")
-    ? "rgba(235, 235, 245, 1)"
-    : "rgba(215, 215, 245, 1)"
+  if (moment(d).isBefore("2018-6-2") && moment(d).isAfter("2018-5-20")) {
+    return tokens.color_gray_300
+  }
+
+  if (moment(d).isBefore("2020-02-02") && moment(d).isAfter("2020-01-20")) {
+    return tokens.color_gray_300
+  }
+  return tokens.color_gray_200
 }

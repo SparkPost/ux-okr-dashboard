@@ -4,6 +4,7 @@ import { Group } from "@vx/group"
 import { scaleBand, scaleLinear } from "@vx/scale"
 import Button from "../button"
 import { getBgFill } from "../getBgFill"
+import { tokens } from "@sparkpost/design-tokens"
 
 import getData from "./data"
 
@@ -19,7 +20,7 @@ function ChangeGraph(props) {
     return view === "delta" ? d.insertions - d.deletions : d[view]
   }
 
-  const width = 1000
+  const width = 1200
   const height = 400
 
   const xMax = width
@@ -30,7 +31,7 @@ function ChangeGraph(props) {
   const xScale = scaleBand({
     rangeRound: [0, xMax],
     domain: SET.map(x),
-    padding: 0.2,
+    padding: 0.1,
   })
   const yScale = scaleLinear({
     rangeRound: [yMax, yMin],
@@ -88,27 +89,27 @@ function ChangeGraph(props) {
                   y={barY}
                   width={barWidth}
                   height={Math.abs(barHeight)}
-                  fill="rgba(90, 90, 250, 1)"
+                  fill={tokens.color_purple_700}
                   style={{ pointerEvents: "none" }}
                 />
               </Group>
             )
           })}
         </Group>
-        <Group left={20} top={yMax + 60}>
-          <rect fill="rgba(235, 225, 225, 1)" width={10} height={12} />
+        {/* <Group left={20} top={yMax + 60}>
+          <rect fill={tokens.color_magenta_200} width={10} height={12} />
           <text dx={20} dy={12}>
             Beta
           </text>
-          <rect x={80} fill="rgba(235, 235, 245, 1)" width={10} height={12} />
+          <rect x={80} fill={tokens.color_gray_200} width={10} height={12} />
           <text dx={100} dy={12}>
             Public
           </text>
-          <rect x={160} fill="rgba(215, 215, 245, 1)" width={10} height={12} />
+          <rect x={160} fill={tokens.color_purple_200} width={10} height={12} />
           <text dx={180} dy={12}>
             Hibana
           </text>
-        </Group>
+        </Group> */}
       </svg>
 
       <div

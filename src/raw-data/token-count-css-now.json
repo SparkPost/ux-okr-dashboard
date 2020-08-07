@@ -1,5 +1,5 @@
 {
-  "date": "2020-07-01",
+  "date": "2020-08-01",
   "data": [
     {
       "file": "Abbreviation.module.scss",
@@ -330,7 +330,7 @@
     {
       "file": "FullPageHibana.module.scss",
       "code": "border-bottom: 1px solid $border-color;",
-      "line": 10
+      "line": 9
     },
     {
       "file": "FullPageHibana.module.scss",
@@ -1066,11 +1066,6 @@
     { "file": "ListPage.module.scss", "code": "margin-bottom: 0;", "line": 13 },
     { "file": "ListPage.module.scss", "code": "margin-bottom: 0;", "line": 17 },
     {
-      "file": "AlertCollection.module.scss",
-      "code": "margin-bottom: 0;",
-      "line": 18
-    },
-    {
       "file": "AlertDetails.module.scss",
       "code": "font-size: rem(15);",
       "line": 11
@@ -1143,13 +1138,23 @@
     },
     {
       "file": "DetailsPage.module.scss",
-      "code": "margin: 0 3px 5px;",
+      "code": "margin-left: 3px;",
       "line": 3
     },
     {
       "file": "ListPage.module.scss",
       "code": "font-size: rem(14);",
-      "line": 16
+      "line": 26
+    },
+    {
+      "file": "ListPageHibana.module.scss",
+      "code": "color: unset;",
+      "line": 13
+    },
+    {
+      "file": "ListPageHibana.module.scss",
+      "code": "font-size: unset;",
+      "line": 14
     },
     { "file": "TfaForm.module.scss", "code": "margin-top: -1rem;", "line": 3 },
     {
@@ -1357,6 +1362,11 @@
     { "file": "IpForm.module.scss", "code": "padding-left: 0;", "line": 18 },
     { "file": "IpForm.module.scss", "code": "margin-bottom: 0;", "line": 23 },
     {
+      "file": "EditPage.module.scss",
+      "code": "border-bottom: 0; // TODO: This should be removed when `borderBottom` is properly exposed on the Hibana <Panel/> component",
+      "line": 1
+    },
+    {
       "file": "SignUpTabsHibana.module.scss",
       "code": "padding: 0; // unset OG",
       "line": 1
@@ -1374,47 +1384,31 @@
     },
     {
       "file": "ApiDetails.module.scss",
-      "code": "padding: rem(20) rem(30);",
-      "line": 3
-    },
-    {
-      "file": "ApiDetails.module.scss",
-      "code": "font-size: rem(20);",
+      "code": "font-size: rem(16);",
       "line": 8
     },
     {
       "file": "ApiDetails.module.scss",
-      "code": "font-size: rem(16);",
-      "line": 14
-    },
-    {
-      "file": "ApiDetails.module.scss",
       "code": "font-size: rem(13);",
-      "line": 19
+      "line": 13
     },
-    { "file": "ApiDetails.module.scss", "code": "padding: 4px;", "line": 21 },
+    { "file": "ApiDetails.module.scss", "code": "padding: 4px;", "line": 15 },
     {
       "file": "ApiDetails.module.scss",
       "code": "margin-right: rem(10);",
-      "line": 29
+      "line": 23
     },
-    {
-      "file": "ApiDetails.module.scss",
-      "code": "margin-top: rem(15);",
-      "line": 35
-    },
-    { "file": "ApiDetails.module.scss", "code": "margin: 1rem;", "line": 36 },
     {
       "file": "ApiDetails.module.scss",
       "code": "font-size: rem(13);",
-      "line": 40
+      "line": 32
     },
     {
       "file": "ApiDetails.module.scss",
       "code": "padding-left: 1em;",
-      "line": 45
+      "line": 37
     },
-    { "file": "ApiDetails.module.scss", "code": "color: #8fc4fe;", "line": 49 },
+    { "file": "ApiDetails.module.scss", "code": "color: #8fc4fe;", "line": 41 },
     {
       "file": "CodeBlock.module.scss",
       "code": "background: #3c3c40;",
@@ -1429,23 +1423,18 @@
     },
     {
       "file": "FileUploadWrapper.module.scss",
-      "code": "font-size: rem(20);",
-      "line": 17
-    },
-    {
-      "file": "FileUploadWrapper.module.scss",
-      "code": "font-size: rem(15);",
-      "line": 25
-    },
-    {
-      "file": "FileUploadWrapper.module.scss",
-      "code": "padding: rem(50);",
-      "line": 36
+      "code": "padding: rem(40);",
+      "line": 16
     },
     {
       "file": "FileUploadWrapper.module.scss",
       "code": "border: 1px dashed transparent;",
-      "line": 37
+      "line": 17
+    },
+    {
+      "file": "FileUploadWrapperHibana.module.scss",
+      "code": "margin: 0;",
+      "line": 7
     },
     {
       "file": "ListProgressHibana.module.scss",
@@ -1454,18 +1443,8 @@
     },
     {
       "file": "RVPriceModal.module.scss",
-      "code": "margin: 0 auto;",
-      "line": 4
-    },
-    {
-      "file": "RVPriceModal.module.scss",
-      "code": "padding: 2rem 3rem;",
-      "line": 8
-    },
-    {
-      "file": "RVPriceModal.module.scss",
       "code": "padding: 8px 0;",
-      "line": 12
+      "line": 3
     },
     {
       "file": "RVPriceModalHibana.module.scss",
@@ -1494,18 +1473,13 @@
     },
     {
       "file": "SingleAddressForm.module.scss",
-      "code": "font-size: rem(20);",
-      "line": 31
-    },
-    {
-      "file": "SingleAddressForm.module.scss",
       "code": "margin: 1rem 0;",
-      "line": 42
+      "line": 40
     },
     {
       "file": "SingleAddressForm.module.scss",
       "code": "margin: 3em auto;",
-      "line": 47
+      "line": 45
     },
     {
       "file": "Tooltip.module.scss",
@@ -1627,14 +1601,9 @@
       "line": 5
     },
     {
-      "file": "ReportOptions.module.scss",
-      "code": "margin-bottom: 0;",
-      "line": 6
-    },
-    {
-      "file": "ReportOptions.module.scss",
-      "code": "margin-top: 0;",
-      "line": 15
+      "file": "ManualEntryForm.module.scss",
+      "code": "margin-top: 1.4rem;",
+      "line": 11
     },
     { "file": "ReportBuilder.module.scss", "code": "margin: 0;", "line": 8 },
     {
@@ -1905,16 +1874,43 @@
       "line": 3
     },
     { "file": "EditBounce.module.scss", "code": "margin: 0 auto;", "line": 7 },
-    { "file": "Icons.module.scss", "code": "margin-right: 3px;", "line": 3 },
+    { "file": "Icons.module.scss", "code": "margin-left: 3px;", "line": 3 },
+    { "file": "Icons.module.scss", "code": "margin-top: -3px;", "line": 4 },
+    { "file": "IconsHibana.module.scss", "code": "margin-top: 0;", "line": 3 },
     {
       "file": "SendingDomainSection.module.scss",
       "code": "margin-top: rem(-42);",
       "line": 6
     },
     {
+      "file": "SetupInstructionPanel.module.scss",
+      "code": "margin-top: 1px;",
+      "line": 11
+    },
+    {
+      "file": "SetupInstructionPanel.module.scss",
+      "code": "margin-top: -4px; // Vertical centering for the OG theme only",
+      "line": 15
+    },
+    {
+      "file": "SetupInstructionPanel.module.scss",
+      "code": "margin-left: 3px;",
+      "line": 16
+    },
+    {
       "file": "SetupInstructionPanelHibana.module.scss",
       "code": "margin-right: 0;",
       "line": 3
+    },
+    {
+      "file": "SetupInstructionPanelHibana.module.scss",
+      "code": "margin-top: -2px;",
+      "line": 4
+    },
+    {
+      "file": "SetupInstructionPanelHibana.module.scss",
+      "code": "margin-top: -1px; // The icon is an odd shape - this helps address vertical centering",
+      "line": 9
     },
     { "file": "Actions.module.scss", "code": "margin-bottom: 0;", "line": 17 },
     {
@@ -2330,34 +2326,23 @@
     {
       "file": "RecentActivity.module.scss",
       "code": "font-size: rem(14);",
-      "line": 26
+      "line": 36
     },
-    {
-      "file": "RecentActivity.module.scss",
-      "code": "font-size: rem(14);",
-      "line": 33
-    },
-    { "file": "RecentActivity.module.scss", "code": "border: 0;", "line": 34 },
-    {
-      "file": "RecentActivity.module.scss",
-      "code": "fill: #44d09e;",
-      "line": 43
-    },
-    { "file": "RecentActivity.module.scss", "code": "margin: 0;", "line": 58 },
+    { "file": "RecentActivity.module.scss", "code": "margin: 0;", "line": 51 },
     {
       "file": "RecentActivity.module.scss",
       "code": "padding-top: 0;",
-      "line": 68
+      "line": 61
     },
     {
       "file": "RecentActivity.module.scss",
       "code": "padding-right: 0;",
-      "line": 69
+      "line": 62
     },
     {
       "file": "RecentActivity.module.scss",
       "code": "padding-bottom: 0;",
-      "line": 70
+      "line": 63
     },
     {
       "file": "RecentActivityHibana.module.scss",
@@ -2372,22 +2357,17 @@
     {
       "file": "EditAndPreviewPage.module.scss",
       "code": "z-index: 50;",
-      "line": 6
+      "line": 8
     },
     {
       "file": "EditAndPreviewPage.module.scss",
       "code": "margin-top: 0;",
-      "line": 14
+      "line": 16
     },
     {
       "file": "EditAndPreviewPage.module.scss",
       "code": "margin-top: 70px;",
-      "line": 17
-    },
-    {
-      "file": "EditAndPreviewPage.module.scss",
-      "code": "color: #44D09E;",
-      "line": 22
+      "line": 19
     },
     {
       "file": "TrackingDomainRow.module.scss",

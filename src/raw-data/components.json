@@ -14,20 +14,6 @@
     ]
   },
   {
-    "component": "Close",
-    "count": 8,
-    "files": [
-      "FullBanner.js",
-      "HibanaBanner.js",
-      "Top.js",
-      "FeatureComparisonModal.js",
-      "PendingCancelGlobalBanner.js",
-      "RecipientValidationModal.js",
-      "RVPriceModal.js",
-      "AddFiltersSection.js"
-    ]
-  },
-  {
     "component": "ChevronRight",
     "count": 7,
     "files": [
@@ -38,6 +24,19 @@
       "ViewDetailsButton.js",
       "SubaccountFilter.js",
       "SubaccountOption.js"
+    ]
+  },
+  {
+    "component": "Close",
+    "count": 7,
+    "files": [
+      "FullBanner.js",
+      "HibanaBanner.js",
+      "Top.js",
+      "FeatureComparisonModal.js",
+      "PendingCancelGlobalBanner.js",
+      "RecipientValidationModal.js",
+      "AddFiltersSection.js"
     ]
   },
   {
@@ -55,15 +54,13 @@
   },
   {
     "component": "CheckCircle",
-    "count": 7,
+    "count": 5,
     "files": [
       "FeatureChangeSection.js",
       "AllMessagesCollection.js",
       "RVBundlePage.js",
       "JobStatusTag.js",
-      "ListComponents.js",
-      "RecentActivity.js",
-      "EditAndPreviewPage.js"
+      "Icons.js"
     ]
   },
   {
@@ -74,16 +71,6 @@
       "Typeahead.js",
       "TestDetails.js",
       "FacetFilter.js"
-    ]
-  },
-  {
-    "component": "ContentCopy",
-    "count": 4,
-    "files": [
-      "CopyField.js",
-      "DetailsPage.js",
-      "CopyCodes.js",
-      "DuplicateTemplate.js"
     ]
   },
   {
@@ -112,18 +99,8 @@
     "files": [
       "FeatureComparisonModal.js",
       "PlanSelect.js",
-      "Icons.js",
+      "SetupInstructionPanel.js",
       "SubaccountOption.js"
-    ]
-  },
-  {
-    "component": "FileEdit",
-    "count": 4,
-    "files": [
-      "PublishedModeActions.js",
-      "SaveDraft.js",
-      "RecentActivity.js",
-      "EditAndPreviewPage.js"
     ]
   },
   {
@@ -159,6 +136,11 @@
     "component": "Delete",
     "count": 3,
     "files": ["AlertCollection.js", "DetailsPage.js", "DeleteTemplate.js"]
+  },
+  {
+    "component": "ContentCopy",
+    "count": 3,
+    "files": ["DetailsPage.js", "CopyCodes.js", "DuplicateTemplate.js"]
   },
   {
     "component": "FileDownload",
@@ -210,6 +192,11 @@
     "count": 2,
     "files": ["JobActionLink.js", "JobStatusTag.js"]
   },
+  {
+    "component": "FileEdit",
+    "count": 2,
+    "files": ["PublishedModeActions.js", "SaveDraft.js"]
+  },
   { "component": "CreditCard", "count": 1, "files": ["CardSummary.js"] },
   { "component": "FirstPage", "count": 1, "files": ["CursorPaging.js"] },
   { "component": "ArrowBack", "count": 1, "files": ["DateSelector.js"] },
@@ -228,6 +215,7 @@
     "count": 1,
     "files": ["ComboBoxTextField.js"]
   },
+  { "component": "DatePicker", "count": 1, "files": ["DatePicker.js"] },
   { "component": "Drawer", "count": 1, "files": ["Drawer.js"] },
   { "component": "useDrawer", "count": 1, "files": ["Drawer.js"] },
   { "component": "EmptyState", "count": 1, "files": ["EmptyState.js"] },
@@ -270,6 +258,11 @@
   { "component": "Schedule", "count": 1, "files": ["DomainStatusTag.js"] },
   { "component": "Inbox", "count": 1, "files": ["inboxPlacement.js"] },
   { "component": "Settings", "count": 1, "files": ["settings.js"] },
+  {
+    "component": "PowerSettingsNew",
+    "count": 1,
+    "files": ["StatusSection.js"]
+  },
   { "component": "ViewModule", "count": 1, "files": ["PlanSelect.js"] },
   {
     "component": "DoNotDisturbOn",
@@ -289,7 +282,6 @@
   { "component": "ShowChart", "count": 1, "files": ["ChartType.js"] },
   { "component": "BarChart", "count": 1, "files": ["ChartType.js"] },
   { "component": "RemoveRedEye", "count": 1, "files": ["ViewPublished.js"] },
-  { "component": "Edit", "count": 1, "files": ["ListComponents.js"] },
   {
     "component": "DesktopWindows",
     "count": 1,
