@@ -1,3 +1,4 @@
+const ts = require("typescript")
 const fs = require("fs")
 const path = require("path")
 const glob = require("glob")
@@ -5,70 +6,112 @@ const moment = require("moment")
 const chalk = require("chalk")
 const _ = require("lodash")
 
-const builtFilename = "component"
-const includes = ["@sparkpost/matcbhox"]
+const DATE = process.argv.pop()
+const formattedDate = moment(DATE).format("YYYY-MM-DD")
+const matchboxComponents = [
+  "ActionList",
+  "Banner",
+  "Box",
+  "Button",
+  "Checkbox",
+  "CodeBlock",
+  "Column",
+  "Columns",
+  "ComboBox",
+  "DatePicker",
+  "Drawer",
+  "EmptyState",
+  "Error",
+  "Expandable",
+  "Grid",
+  "HelpText",
+  "Inline",
+  "KeyboardKey",
+  "Label",
+  "Layout",
+  "Modal",
+  "OptionalLabel",
+  "Page",
+  "Pager",
+  "Pagination",
+  "Panel",
+  "Popover",
+  "Portal",
+  "ProgressBar",
+  "Radio",
+  "RadioCard",
+  "ScreenReaderOnly",
+  "Select",
+  "Slider",
+  "Snackbar",
+  "Spinner",
+  "Stack",
+  "Table",
+  "Tabs",
+  "Tag",
+  "Text",
+  "TextField",
+  "Toggle",
+  "ThemeProvider",
+  "Tooltip",
+  "UnstyledLink",
+  "WindowEvent",
+]
+
+let currentContent = JSON.parse(
+  fs.readFileSync(
+    path.join(__dirname, "../src/raw-data/component.json"),
+    "utf8"
+  )
+)
+
+const data = { is: 0, isNot: 0 }
+
+function parse(source, fileName) {
+  visit(source)
+
+  function visit(node) {
+    if (
+      node.kind === ts.SyntaxKind.JsxOpeningElement ||
+      node.kind === ts.SyntaxKind.JsxSelfClosingElement
+    ) {
+      const name = node.tagName ? node.tagName.getText(source) : false
+
+      // Ignores normal HTML JSX elements
+      if (name && /[A-Z]/.test(name[0])) {
+        if (matchboxComponents.includes(name)) {
+          data.is = data.is + 1
+        } else {
+          data.isNot = data.isNot + 1
+        }
+      }
+    }
+
+    ts.forEachChild(node, visit)
+  }
+}
 
 glob(
   path.join(__dirname, "../../2web2ui/src/**/*.js"),
-  {
-    ignore: ["**/__func__/**", "**/__testHelpers__/**", "**/tests/**"],
-  },
-  (err, files) => {
-    const json = files.reduce((acc, file) => {
-      const content = fs.readFileSync(file, "utf8")
-      const fileName = file.split("/").pop()
-      let results = {}
+  { ignore: ["**/__func__/**", "**/__testHelpers__/**", "**/tests/**"] },
+  function(err, files) {
+    if (err) {
+      callback(err)
+    }
 
-      content.split("\n").forEach(line => {
-        if (!line.includes("@sparkpost/matchbox")) {
-          return
-        }
-
-        const parts = line.split(/({|})+/)
-        parts.splice(-2, 2)
-        parts.splice(0, 2)
-
-        const components = parts
-          .join()
-          .trim()
-          .split(",")
-
-        components.forEach(component => {
-          const key = component
-            .split("as")
-            .shift()
-            .trim()
-
-          if (key) {
-            results = {
-              ...results,
-              [key]: {
-                component: key,
-                count: acc[key] ? acc[key].count + 1 : 1,
-                files: acc[key] ? [...acc[key].files, fileName] : [fileName],
-              },
-            }
-          }
-        })
-      })
-
-      return { ...acc, ...results }
-    }, {})
-
-    const ordered = _.orderBy(_.toArray(json), ["count"], ["desc"])
-
-    fs.writeFileSync(
-      path.join(__dirname, "../src/raw-data/components.json"),
-      JSON.stringify(ordered)
-    )
-
-    ordered.forEach(({ component, count }) => {
-      console.log(chalk`{blue ${component}} {rgb(100,100,100) (${count})}`)
-    })
-    console.log(
-      chalk.green.bold(
-        `Component usage generated (${Object.keys(ordered).length} found)\n`
+    console.log(chalk.white(`Reading ${files.length} files...`))
+    files.forEach(fileName => {
+      const sourceFile = ts.createSourceFile(
+        fileName,
+        fs.readFileSync(fileName).toString(),
+        ts.ScriptTarget.ES2015
       )
+      parse(sourceFile, fileName)
+    })
+    fs.writeFileSync(
+      path.join(__dirname, "../src/raw-data/component.json"),
+      JSON.stringify({ ...currentContent, [formattedDate]: data })
     )
+    console.log(chalk.green.bold(`Component usage generated\n`))
   }
 )

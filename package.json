@@ -27,7 +27,8 @@
   },
   "devDependencies": {
     "glob": "^7.1.4",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "typescript": "^3.9.7"
   },
   "keywords": [
     "gatsby"
@@ -44,7 +45,7 @@
     "source:scss": "sh ./scripts/raw.sh && node ./scripts/format-raw.js && prettier --write **/*.json",
     "source:token": "sh ./scripts/token.sh && prettier --write **/*.json",
     "source:size": "sh ./scripts/size.sh && prettier --write **/*.json",
-    "source:component": "node ./scripts/component.js && prettier --write **/*.json"
+    "source:component": "sh ./scripts/component.sh &&  prettier --write **/*.json"
   },
   "repository": {
     "type": "git",
