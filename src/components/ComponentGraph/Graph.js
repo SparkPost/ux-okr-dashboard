@@ -19,7 +19,7 @@ function Graph({ onClick }) {
 
   const x = d => d.date
   const y = d => d.is
-  const y2 = d => d.isNot
+  const y2 = d => d.isNot + d.is
   const ratioY = d => (d.is / (d.is + d.isNot)) * 5500
 
   const width = 800

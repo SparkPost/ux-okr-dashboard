@@ -31,6 +31,7 @@ const matchboxComponents = [
   "Error",
   "Expandable",
   "Grid",
+  "Grid.Column",
   "HelpText",
   "Inline",
   "KeyboardKey",
@@ -39,12 +40,15 @@ const matchboxComponents = [
   "Layout.Section",
   "Layout.SectionTitle",
   "Modal",
+  "Modal.LEGACY",
   "OptionalLabel",
   "Page",
   "Pager",
   "Pagination",
   "Panel",
+  "Panel.LEGACY",
   "Panel.Section",
+  "Panel.LEGACY.Section",
   "Panel.Header",
   "Popover",
   "Portal",
@@ -97,7 +101,7 @@ function parse(source, fileName) {
       if (name && /[A-Z]/.test(name[0])) {
         if (matchboxComponents.includes(name)) {
           data.is = data.is + 1
-        } else {
+        } else if (name !== "Fragment") {
           data.isNot = data.isNot + 1
         }
       }

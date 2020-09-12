@@ -16,7 +16,9 @@ function ComponentGraph(props) {
       <Graph onClick={setDate} />
 
       <div style={{ textAlign: "center" }}>
-        <div>Ratio: {((last.is / last.isNot) * 100).toFixed(2)}%</div>
+        <div>
+          Ratio: {((last.is / (last.is + last.isNot)) * 100).toFixed(2)}%
+        </div>
         <div>Matchbox Components: {last.is}</div>
         <div>UI Components: {last.isNot}</div>
         <div>Date: {date}</div>
