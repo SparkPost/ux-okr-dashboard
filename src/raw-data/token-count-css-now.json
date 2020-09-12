@@ -1,5 +1,5 @@
 {
-  "date": "2020-08-01",
+  "date": "2020-09-01",
   "data": [
     {
       "file": "Abbreviation.module.scss",
@@ -410,11 +410,6 @@
     },
     {
       "file": "HibanaComponents.module.scss",
-      "code": "z-index: 500;",
-      "line": 8
-    },
-    {
-      "file": "HibanaComponents.module.scss",
       "code": "background-color: #fff;",
       "line": 11
     },
@@ -646,8 +641,38 @@
     { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 44 },
     { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 50 },
     { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 58 },
-    { "file": "LayoutHibana.module.scss", "code": "padding: 0;", "line": 37 },
-    { "file": "LayoutHibana.module.scss", "code": "padding: 0;", "line": 40 },
+    {
+      "file": "LayoutHibana.module.scss",
+      "code": "padding-bottom: sizing(900);",
+      "line": 15
+    },
+    {
+      "file": "LayoutHibana.module.scss",
+      "code": "padding-bottom: sizing(900);",
+      "line": 19
+    },
+    {
+      "file": "LayoutHibana.module.scss",
+      "code": "padding-bottom: sizing(900);",
+      "line": 24
+    },
+    {
+      "file": "LayoutHibana.module.scss",
+      "code": "padding-bottom: sizing(900);",
+      "line": 28
+    },
+    {
+      "file": "LayoutHibana.module.scss",
+      "code": "padding-bottom: sizing(900);",
+      "line": 33
+    },
+    {
+      "file": "LayoutHibana.module.scss",
+      "code": "padding-bottom: sizing(900);",
+      "line": 37
+    },
+    { "file": "LayoutHibana.module.scss", "code": "padding: 0;", "line": 44 },
+    { "file": "LayoutHibana.module.scss", "code": "padding: 0;", "line": 47 },
     { "file": "LineBreak.module.scss", "code": "margin: 0;", "line": 13 },
     {
       "file": "LineBreak.module.scss",
@@ -1342,11 +1367,6 @@
       "file": "IncidentsCollection.module.scss",
       "code": "border: 0;",
       "line": 7
-    },
-    {
-      "file": "RelatedIncidents.module.scss",
-      "code": "margin-top: 0;",
-      "line": 8
     },
     {
       "file": "GuideListItem.module.scss",

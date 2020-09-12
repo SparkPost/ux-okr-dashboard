@@ -1,5 +1,396 @@
 [
   {
+    "commit": "386888b6f432b130a557382f69c928b750efa026",
+    "date": "2020-09-01",
+    "changes": [
+      {
+        "path": "src/components/support/Support.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "02c26df9d6671a7939d5bbb8058cc2dcc8322546",
+    "date": "2020-08-26",
+    "changes": [
+      {
+        "path": "src/pages/blocklist/components/IncidentDetails.module.scss",
+        "insertions": 0,
+        "deletions": 21
+      },
+      {
+        "path": "src/pages/blocklist/components/IncidentDetailsHibana.module.scss",
+        "insertions": 0,
+        "deletions": 15
+      },
+      {
+        "path": "src/pages/blocklist/components/RelatedIncidents.module.scss",
+        "insertions": 0,
+        "deletions": 18
+      },
+      {
+        "path": "src/pages/blocklist/components/RelatedIncidentsHibana.module.scss",
+        "insertions": 0,
+        "deletions": 13
+      }
+    ]
+  },
+  {
+    "commit": "5ce853a9ddafce858e23dd038d0b997355012058",
+    "date": "2020-08-21",
+    "changes": [
+      {
+        "path": "src/components/cookieConsent/CookieConsent.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "src/components/hibana/HibanaComponents.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "04ff175f38eeeb455e83b84bf1b0af4167929cf6",
+    "date": "2020-08-18",
+    "changes": [
+      {
+        "path": "src/components/layout/LayoutHibana.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "b974b39bdd02f229b1e49f7c3705d1b7e3971e9f",
+    "date": "2020-08-10",
+    "changes": [
+      {
+        "path": "src/pages/dashboardV2/DashboardPageV2.module.scss",
+        "insertions": 0,
+        "deletions": 11
+      }
+    ]
+  },
+  {
+    "commit": "6d4609c3441ed6bedac5cc9ddc3da886f29ed6c6",
+    "date": "2020-08-06",
+    "changes": [
+      {
+        "path": "src/pages/dashboardV2/DashboardPageV2.module.scss",
+        "insertions": 11,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "2b38a529ef2daddda978cf209019dee8c0cb0bcc",
+    "date": "2020-07-31",
+    "changes": [
+      {
+        "path": "src/components/layout/components/FeedbackButton.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "618e6b990849e5fe4344bc23d9668270fed490d4",
+    "date": "2020-07-29",
+    "changes": [
+      {
+        "path": "src/components/layout/LayoutHibana.module.scss",
+        "insertions": 6,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "f25dceddf90569f8e0bf95219708fdf39038f631",
+    "date": "2020-07-21",
+    "changes": [
+      {
+        "path": "src/components/layout/components/FeedbackButton.module.scss",
+        "insertions": 14,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "d906777abdd12448a19a4bff557037f623e1c22c",
+    "date": "2020-07-20",
+    "changes": [
+      {
+        "path": "src/components/matchbox/Modal.module.scss",
+        "insertions": 0,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "01b802db64909eb54263f54ce4be701b31efa0e0",
+    "date": "2020-07-16",
+    "changes": [
+      {
+        "path": "src/pages/alerts/DetailsPage.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/alerts/components/AlertDetails.module.scss",
+        "insertions": 3,
+        "deletions": 3
+      },
+      {
+        "path": "src/pages/alerts/components/AlertDetailsHibana.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/alerts/components/AlertIncidents.module.scss",
+        "insertions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "src/pages/recipientValidation/components/ApiDetails.module.scss",
+        "insertions": 1,
+        "deletions": 9
+      },
+      {
+        "path": "src/pages/recipientValidation/components/ApiDetailsHibana.module.scss",
+        "insertions": 2,
+        "deletions": 9
+      },
+      {
+        "path": "src/pages/recipientValidation/components/FileUploadWrapper.module.scss",
+        "insertions": 3,
+        "deletions": 22
+      },
+      {
+        "path": "src/pages/recipientValidation/components/FileUploadWrapperHibana.module.scss",
+        "insertions": 3,
+        "deletions": 23
+      },
+      {
+        "path": "src/pages/recipientValidation/components/SingleAddressForm.module.scss",
+        "insertions": 1,
+        "deletions": 3
+      },
+      {
+        "path": "src/pages/recipientValidation/components/SingleAddressFormHibana.module.scss",
+        "insertions": 1,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "b1e794e8a4a64fb7bcc9eb1e0eeb779c69159209",
+    "date": "2020-07-16",
+    "changes": [
+      {
+        "path": "src/pages/alerts/ListPageHibana.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "a24d66b4de7d6a9c3d6fb78d97404c2b0a70ae3d",
+    "date": "2020-07-16",
+    "changes": [
+      {
+        "path": "src/components/fullPage/FullPageHibana.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "src/components/hibana/DesktopNavigation.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "src/components/layout/LayoutHibana.module.scss",
+        "insertions": 3,
+        "deletions": 3
+      },
+      {
+        "path": "src/pages/alerts/ListPage.module.scss",
+        "insertions": 10,
+        "deletions": 4
+      },
+      {
+        "path": "src/pages/alerts/ListPageHibana.module.scss",
+        "insertions": 17,
+        "deletions": 3
+      },
+      {
+        "path": "src/pages/alerts/components/AlertCollection.module.scss",
+        "insertions": 0,
+        "deletions": 16
+      },
+      {
+        "path": "src/pages/alerts/components/AlertCollectionHibana.module.scss",
+        "insertions": 0,
+        "deletions": 8
+      },
+      {
+        "path": "src/pages/templates/EditAndPreviewPage.module.scss",
+        "insertions": 5,
+        "deletions": 20
+      },
+      {
+        "path": "src/pages/templates/EditAndPreviewPageHibana.module.scss",
+        "insertions": 0,
+        "deletions": 6
+      },
+      {
+        "path": "src/pages/templates/components/RecentActivity.module.scss",
+        "insertions": 9,
+        "deletions": 16
+      },
+      {
+        "path": "src/pages/templates/components/RecentActivityHibana.module.scss",
+        "insertions": 2,
+        "deletions": 6
+      }
+    ]
+  },
+  {
+    "commit": "4a32ac10faa0c440504972f12f4f1fde1d3c66be",
+    "date": "2020-07-15",
+    "changes": [
+      {
+        "path": "src/pages/alerts/components/AlertCollectionHibana.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/signals/components/filters/SubaccountFilterHibana.module.scss",
+        "insertions": 4,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "efb9d56fdb0185aab74366410be1e4dbca3297a4",
+    "date": "2020-07-15",
+    "changes": [
+      {
+        "path": "src/pages/reportBuilder/components/ReportOptions.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "078f507dda53f89df7a1f4d5b8b7497623a44cb4",
+    "date": "2020-07-14",
+    "changes": [
+      {
+        "path": "src/pages/reportBuilder/ReportBuilder.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/reportBuilder/components/ReportOptions.module.scss",
+        "insertions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "e1a28a322bcaa8a58df35481f521772793df3f77",
+    "date": "2020-07-13",
+    "changes": [
+      {
+        "path": "src/pages/reportBuilder/components/DateTimeSection/DatePicker.module.scss",
+        "insertions": 20,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/reportBuilder/components/DateTimeSection/ManualEntryForm.module.scss",
+        "insertions": 14,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/reportBuilder/components/ReportOptions.module.scss",
+        "insertions": 0,
+        "deletions": 17
+      }
+    ]
+  },
+  {
+    "commit": "99ecdec14a38dc1ffa88b7d46b02d837714469fa",
+    "date": "2020-07-07",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/components/RVPriceModal.module.scss",
+        "insertions": 0,
+        "deletions": 12
+      },
+      {
+        "path": "src/pages/recipientValidation/components/RVPriceModalHibana.module.scss",
+        "insertions": 0,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "0d602aba4daeb0092d1ddf1b54423513b75908f0",
+    "date": "2020-07-02",
+    "changes": [
+      {
+        "path": "src/pages/ipPools/EditPage.module.scss",
+        "insertions": 3,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "199534c66333c822c3d665006f3892e0d7222108",
+    "date": "2020-07-02",
+    "changes": [
+      {
+        "path": "src/pages/sendingDomains/components/Icons.module.scss",
+        "insertions": 2,
+        "deletions": 6
+      },
+      {
+        "path": "src/pages/sendingDomains/components/IconsHibana.module.scss",
+        "insertions": 1,
+        "deletions": 4
+      },
+      {
+        "path": "src/pages/sendingDomains/components/SetupInstructionPanel.module.scss",
+        "insertions": 7,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/sendingDomains/components/SetupInstructionPanelHibana.module.scss",
+        "insertions": 6,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/sendingDomains/components/VerifyEmail.module.scss",
+        "insertions": 0,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "a073be539065041f8169b56edd859e97c83cc986",
+    "date": "2020-07-02",
+    "changes": [
+      {
+        "path": "src/pages/webhooks/components/WebhookFormHibana.module.scss",
+        "insertions": 5,
+        "deletions": 5
+      }
+    ]
+  },
+  {
     "commit": "e19cabc048c4aef551722e9d17cddd7f2c1b72c1",
     "date": "2020-06-30",
     "changes": [
