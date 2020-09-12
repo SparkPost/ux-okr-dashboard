@@ -78,20 +78,6 @@ function Graph({ onClick }) {
           )
         })}
       </Group>
-      {/* <Group left={20} top={yMax + 60}>
-        <rect fill={tokens.color_magenta_200} width={10} height={12} />
-        <text dx={20} dy={12}>
-          Beta
-        </text>
-        <rect x={80} fill={tokens.color_gray_200} width={10} height={12} />
-        <text dx={100} dy={12}>
-          Public
-        </text>
-        <rect x={160} fill={tokens.color_purple_200} width={10} height={12} />
-        <text dx={180} dy={12}>
-          Hibana
-        </text>
-      </Group> */}
     </svg>
   )
 }

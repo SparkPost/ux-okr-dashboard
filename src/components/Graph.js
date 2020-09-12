@@ -94,20 +94,6 @@ function Graph({ xKey = "css", onClick, dataSet }) {
           )
         })}
       </Group>
-      {/* <Group left={20} top={yMax + 60}>
-        <rect fill={tokens.color_red_200} width={10} height={12} />
-        <text dx={20} dy={12}>
-          Beta
-        </text>
-        <rect x={80} fill="rgba(235, 235, 245, 1)" width={10} height={12} />
-        <text dx={100} dy={12}>
-          Public
-        </text>
-        <rect x={160} fill="rgba(215, 215, 245, 1)" width={10} height={12} />
-        <text dx={180} dy={12}>
-          Hibana
-        </text>
-      </Group> */}
     </svg>
   )
 }
