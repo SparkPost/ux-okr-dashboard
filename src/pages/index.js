@@ -8,6 +8,7 @@ import AverageGraph from "../components/AverageGraph/AverageGraph"
 import TokenizableCss from "../components/TokenizableCss/TokenizableCss"
 import TokenizableJs from "../components/TokenizableJs/TokenizableJs"
 import SizeGraph from "../components/SizeGraph/SizeGraph"
+import BreakdownGraph from "../components/BreakdownGraph/BreakdownGraph"
 
 const IndexPage = () => {
   return (
@@ -30,6 +31,9 @@ const IndexPage = () => {
       </div>
       <div style={{ minHeight: "60vh" }}>
         <SizeGraph />
+      </div>
+      <div style={{ minHeight: "60vh" }}>
+        <BreakdownGraph />
       </div>
     </Layout>
   )

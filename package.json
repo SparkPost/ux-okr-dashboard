@@ -6,9 +6,11 @@
   "author": "SparkPost",
   "dependencies": {
     "@sparkpost/design-tokens": "^4.0.13",
+    "@vx/axis": "0.0.199",
     "@vx/group": "0.0.190",
     "@vx/scale": "0.0.190",
     "@vx/shape": "0.0.190",
+    "@vx/tooltip": "0.0.199",
     "chalk": "^2.4.2",
     "gatsby": "^2.15.9",
     "gatsby-image": "^2.2.17",
@@ -41,11 +43,12 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
-    "source:all": "npm run source:scss && npm run source:token && npm run source:size && npm run source:component",
+    "source:all": "npm run source:breakdown && npm run source:scss && npm run source:token && npm run source:size && npm run source:component",
     "source:scss": "sh ./scripts/raw.sh && node ./scripts/format-raw.js && prettier --write **/*.json",
     "source:token": "sh ./scripts/token.sh && prettier --write **/*.json",
     "source:size": "sh ./scripts/size.sh && prettier --write **/*.json",
-    "source:component": "sh ./scripts/component.sh &&  prettier --write **/*.json"
+    "source:component": "sh ./scripts/component.sh &&  prettier --write **/*.json",
+    "source:breakdown": "node ./scripts/component-breakdown.js"
   },
   "repository": {
     "type": "git",
