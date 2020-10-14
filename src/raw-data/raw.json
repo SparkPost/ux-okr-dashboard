@@ -1,5 +1,16 @@
 [
   {
+    "commit": "c70e80b2930c11eace0372b3687b7b781492e992",
+    "date": "2020-10-14",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/SingleResult.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
     "commit": "386888b6f432b130a557382f69c928b750efa026",
     "date": "2020-09-01",
     "changes": [

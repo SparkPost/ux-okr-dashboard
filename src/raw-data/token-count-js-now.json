@@ -1,5 +1,5 @@
 {
-  "date": "2020-09-01",
+  "date": "2020-10-01",
   "data": [
     { "file": "BarChart.js", "code": "stroke='#e1e1e6'", "line": 54 },
     { "file": "BarChart.js", "code": "activeFill: '#22838A',", "line": 142 },
@@ -28,6 +28,11 @@
       "file": "ButtonLink.js",
       "code": "return <UnstyledLink {...props} to=\"#\" role=\"button\" onClick={handleClick} />;",
       "line": 11
+    },
+    {
+      "file": "Table.js",
+      "code": "color: ${props => (props.sortDirection ? '#fff' : props.theme.colors.gray['700'])};",
+      "line": 16
     },
     {
       "file": "default.js",
