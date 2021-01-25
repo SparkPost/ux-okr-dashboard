@@ -14,6 +14,10 @@ const formatted = Object.keys(data)
     return a.value > b.value ? -1 : a.value < b.value ? 1 : 0
   })
 
+const total = Object.keys(data).reduce((acc, key) => {
+  return acc + data[key]
+}, 0)
+
 function BreakdownGraph() {
   const y = d => d.key
   const x = d => d.value
@@ -41,6 +45,9 @@ function BreakdownGraph() {
   return (
     <>
       <h1>Component Usage</h1>
+      <div style={{ textAlign: "center" }}>
+        <p>Total: {total}</p>
+      </div>
       <svg width={width} height={height}>
         <Group top={0} left={0}>
           {formatted.map((d, i) => {

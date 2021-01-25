@@ -1,5 +1,113 @@
 [
   {
+    "commit": "b2b6cd9743579f49d69b0593f7dac010fdfa1122",
+    "date": "2021-01-15",
+    "changes": [
+      {
+        "path": "src/pages/reportBuilder/components/EmptyTabs/EmptyTabs.module.scss",
+        "insertions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "c81b2c00351233d9678e1132e26ffbcf93412c91",
+    "date": "2020-12-16",
+    "changes": [
+      {
+        "path": "src/pages/reportBuilder/components/{=>GroupByTable}/ReportTable.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "3377eefcb9026a5892319999c88aacad299a5df6",
+    "date": "2020-12-15",
+    "changes": []
+  },
+  {
+    "commit": "f10cef82c01cd6ff7aa268b6a1f7c3c4b02912d1",
+    "date": "2020-12-07",
+    "changes": [
+      {
+        "path": "src/{pages/reportBuilder/components=>components/charts}/LineChart.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "ac1390af9a882d9b01e1cb2e9efa54b8bb91a033",
+    "date": "2020-12-08",
+    "changes": [
+      {
+        "path": "src/components/charts/AreaChart.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "6b6ea2649c4edbb507a167e571b6b4cc67cbeb84",
+    "date": "2020-11-24",
+    "changes": [
+      {
+        "path": "src/pages/reportBuilder/ReportBuilder.module.scss",
+        "insertions": 0,
+        "deletions": 33
+      },
+      {
+        "path": "src/pages/reportBuilder/components/{async=>}/LineChart.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "356edddc50dadca0857616bf37dbeb7d51be4c7f",
+    "date": "2020-11-12",
+    "changes": [
+      {
+        "path": "src/pages/alerts/ListPage.module.scss",
+        "insertions": 7,
+        "deletions": 13
+      },
+      {
+        "path": "src/pages/alerts/ListPageHibana.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/templates/components/RecentActivity.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "2429bd8586d3bab26ee70917ad96b292e830a70c",
+    "date": "2020-10-27",
+    "changes": [
+      {
+        "path": "src/{pages/reportBuilder/components/DateTimeSection/ManualEntryForm.module.scss=>components/datePicker/ManualEntryFormNew.module.scss}",
+        "insertions": 0,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "c70e80b2930c11eace0372b3687b7b781492e992",
+    "date": "2020-10-14",
+    "changes": [
+      {
+        "path": "src/pages/recipientValidation/SingleResult.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
     "commit": "386888b6f432b130a557382f69c928b750efa026",
     "date": "2020-09-01",
     "changes": [
