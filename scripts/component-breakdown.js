@@ -9,6 +9,8 @@ const matchboxComponents = [
   "ActionList",
   "ActionList.Action",
   "Banner",
+  "Banner.Action",
+  "Banner.Media",
   "Box",
   "Button",
   "Button.Group",
@@ -24,19 +26,31 @@ const matchboxComponents = [
   "Drawer",
   "Drawer.Header",
   "Drawer.Content",
+  "Drawer.Footer",
   "EmptyState",
+  "EmptyState.Header",
+  "EmptyState.Action",
+  "EmptyState.List",
+  "EmptyState.Media",
+  "EmptyState.Image",
+  "EmptyState.LEGACY",
   "Error",
   "Expandable",
   "Grid",
   "Grid.Column",
   "HelpText",
   "Inline",
+  "InlineCode",
   "KeyboardKey",
   "Label",
   "Layout",
   "Layout.Section",
   "Layout.SectionTitle",
+  "ListBox",
   "Modal",
+  "Modal.Header",
+  "Modal.Content",
+  "Modal.Footer",
   "Modal.LEGACY",
   "OptionalLabel",
   "Page",
@@ -47,6 +61,9 @@ const matchboxComponents = [
   "Panel.Section",
   "Panel.LEGACY.Section",
   "Panel.Header",
+  "Panel.SubHeader",
+  "Panel.Action",
+  "Picture",
   "Popover",
   "Portal",
   "ProgressBar",
@@ -62,6 +79,7 @@ const matchboxComponents = [
   "Stack",
   "Table",
   "Table.Row",
+  "Table.TotalsRow",
   "Table.Cell",
   "Table.HeaderCell",
   "Tabs",
@@ -72,15 +90,9 @@ const matchboxComponents = [
   "ThemeProvider",
   "Tooltip",
   "UnstyledLink",
+  "Video",
   "WindowEvent",
 ]
-
-let currentContent = JSON.parse(
-  fs.readFileSync(
-    path.join(__dirname, "../src/raw-data/component.json"),
-    "utf8"
-  )
-)
 
 const data = {}
 
@@ -127,7 +139,7 @@ glob(
       parse(sourceFile, fileName)
     })
     fs.writeFileSync(
-      path.join(__dirname, "../src/raw-data/component-breakdown.json"),
+      path.join(__dirname, "../data/component-breakdown.json"),
       JSON.stringify(data)
     )
     console.log(chalk.green.bold(`Component usage generated\n`))
