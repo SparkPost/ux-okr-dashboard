@@ -81,7 +81,7 @@ function LineChart(props) {
           ? d1
           : d0
     }
-    console.log(event)
+
     showTooltip({
       tooltipData: { ...d, y2TooltipTop: yScale(y2(d)) + margin.top },
       tooltipLeft: coords.x,

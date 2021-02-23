@@ -1,5 +1,5 @@
 import Head from "next/head"
-import { ThemeProvider, Box, Panel } from "@sparkpost/matchbox"
+import { Box, Panel } from "@sparkpost/matchbox"
 import LineChart from "../components/LineChart"
 import tokenCountData from "../data/token-count-raw.json"
 import styledData from "../data/styled-component.json"
@@ -18,7 +18,7 @@ const sizeFormatted = formatData(sizeData)
 
 export default function Home() {
   return (
-    <ThemeProvider>
+    <>
       <Head>
         <title>Matchbox Usage Tracker</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -28,9 +28,6 @@ export default function Home() {
         display="grid"
         gridGap="500"
         gridTemplateColumns="repeat(6, 1fr)"
-        maxWidth="1200px"
-        my="800"
-        mx="auto"
       >
         <Box as="h1" fontSize="500" gridColumn="1/7">
           Matchbox Usage Tracker
@@ -111,6 +108,6 @@ export default function Home() {
           </Panel>
         </Box>
       </Box>
-    </ThemeProvider>
+    </>
   )
 }
