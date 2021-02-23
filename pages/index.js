@@ -19,15 +19,22 @@ const sizeFormatted = formatData(sizeData)
 export default function Home() {
   return (
     <ThemeProvider>
+      <Head>
+        <title>Matchbox Usage Tracker</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Box
         p="800"
         display="grid"
         gridGap="500"
         gridTemplateColumns="repeat(6, 1fr)"
-        maxWidth="1500px"
+        maxWidth="1200px"
         my="800"
         mx="auto"
       >
+        <Box as="h1" fontSize="500" gridColumn="1/7">
+          Matchbox Usage Tracker
+        </Box>
         <Box gridColumn="1/7">
           <Panel>
             <Panel.SubHeader>Component Breakdown</Panel.SubHeader>
@@ -37,7 +44,7 @@ export default function Home() {
                 yKey="is"
                 yKey2="isNot"
                 xKey="date"
-                height="300"
+                height="400"
                 labelMap={{
                   isNot: "2web2ui",
                   is: "matchbox",
@@ -59,7 +66,7 @@ export default function Home() {
                 data={sizeFormatted}
                 yKey="css"
                 xKey="date"
-                height="300"
+                height="250"
               />
             </Panel.Section>
           </Panel>
@@ -72,7 +79,7 @@ export default function Home() {
                 data={styledFormatted}
                 yKey="length"
                 xKey="date"
-                height="300"
+                height="250"
               />
             </Panel.Section>
           </Panel>
@@ -85,7 +92,7 @@ export default function Home() {
                 data={tokenCountFormatted}
                 yKey="css"
                 xKey="date"
-                height="300"
+                height="250"
               />
             </Panel.Section>
           </Panel>
@@ -98,7 +105,7 @@ export default function Home() {
                 data={tokenCountFormatted}
                 yKey="js"
                 xKey="date"
-                height="300"
+                height="250"
               />
             </Panel.Section>
           </Panel>
