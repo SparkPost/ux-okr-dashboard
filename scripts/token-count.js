@@ -72,15 +72,15 @@ glob(path.join(__dirname, "../../2web2ui/src/**/*.scss"), {}, (err, files) => {
 
   currentContent[formattedDate] = { css: json.length }
 
-  if (shouldWriteFile) {
-    fs.writeFileSync(
-      path.join(
-        path.join(__dirname, "../data"),
-        `${builtFilename}-css-now.json`
-      ),
-      JSON.stringify({ date: formattedDate, data: json })
-    )
-  }
+  // if (shouldWriteFile) {
+  //   fs.writeFileSync(
+  //     path.join(
+  //       path.join(__dirname, "../data"),
+  //       `${builtFilename}-css-now.json`
+  //     ),
+  //     JSON.stringify({ date: formattedDate, data: json })
+  //   )
+  // }
   console.log(
     `✅  CSS Tokenizables for ${formattedDate} (${json.length} found)`
   )
@@ -127,15 +127,15 @@ glob(path.join(__dirname, "../../2web2ui/src/**/*.js"), {}, (err, files) => {
     JSON.stringify(currentContent)
   )
 
-  if (shouldWriteFile) {
-    fs.writeFileSync(
-      path.join(
-        path.join(__dirname, "../data"),
-        `${builtFilename}-js-now.json`
-      ),
-      JSON.stringify({ date: formattedDate, data: json })
-    )
-  }
+  // if (shouldWriteFile) {
+  //   fs.writeFileSync(
+  //     path.join(
+  //       path.join(__dirname, "../data"),
+  //       `${builtFilename}-js-now.json`
+  //     ),
+  //     JSON.stringify({ date: formattedDate, data: json })
+  //   )
+  // }
   console.log(
     `✅  JS Tokenizables for ${formattedDate} (${json.length} found)\n`
   )
