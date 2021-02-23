@@ -43,8 +43,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "format": "prettier --write \"src/**/*.{js,jsx,json,md}\"",
     "source:scss": "sh ./scripts/scss.sh && node ./scripts/format-scss.js && prettier --write **/*.json",
-    "source:component": "sh ./scripts/component.sh &&  prettier --write **/*.json"
+    "source": "sh ./scripts/component.sh &&  prettier --write **/*.json"
   }
 }
