@@ -5,34 +5,29 @@ const glob = require("glob")
 const moment = require("moment")
 const chalk = require("chalk")
 const _ = require("lodash")
-const matchboxComponents = require("./component-list")
+const { notEqual } = require("assert")
 
 const DATE = process.argv.pop()
 const formattedDate = moment(DATE).format("YYYY-MM-DD")
 
 let currentContent = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "../data/component.json"), "utf8")
+  fs.readFileSync(path.join(__dirname, "../data/styled-component.json"), "utf8")
 )
 
-const data = { is: 0, isNot: 0 }
+const data = { length: 0 }
 
 function parse(source, fileName) {
   visit(source)
 
   function visit(node) {
-    if (
-      node.kind === ts.SyntaxKind.JsxOpeningElement ||
-      node.kind === ts.SyntaxKind.JsxSelfClosingElement
-    ) {
-      const name = node.tagName ? node.tagName.getText(source) : false
-
-      // Ignores normal HTML JSX elements
-      if (name && /[A-Z]/.test(name[0])) {
-        if (matchboxComponents.includes(name)) {
-          data.is = data.is + 1
-        } else if (name !== "Fragment") {
-          data.isNot = data.isNot + 1
-        }
+    if (node.kind === ts.SyntaxKind.VariableDeclaration) {
+      const delcarationText = node.getText(source)
+      if (
+        delcarationText.includes("styled(") ||
+        delcarationText.includes("styled.")
+      ) {
+        // Subtract two to remove the first and last lines, which are typically empty
+        data.length = data.length + delcarationText.split("\n").length - 2
       }
     }
 
@@ -58,9 +53,9 @@ glob(
       parse(sourceFile, fileName)
     })
     fs.writeFileSync(
-      path.join(__dirname, "../data/component.json"),
+      path.join(__dirname, "../data/styled-component.json"),
       JSON.stringify({ ...currentContent, [formattedDate]: data })
     )
-    console.log(chalk.green.bold(`Component usage generated\n`))
+    console.log(chalk.green.bold(`Styled Component usage generated\n`))
   }
 )

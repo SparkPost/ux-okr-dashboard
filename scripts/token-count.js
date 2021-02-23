@@ -10,10 +10,7 @@ const formattedDate = moment(DATE).format("YYYY-MM-DD")
 const shouldWriteFile = moment(DATE).isSame(moment(), "month")
 
 let currentContent = JSON.parse(
-  fs.readFileSync(
-    path.join(__dirname, "../src/raw-data/token-count-raw.json"),
-    "utf8"
-  )
+  fs.readFileSync(path.join(__dirname, "../data/token-count-raw.json"), "utf8")
 )
 currentContent = { ...currentContent, [formattedDate]: {} }
 
@@ -48,17 +45,13 @@ const cssExcludes = [
 ]
 
 function includes(line, arr) {
-  return arr.reduce(
-    (acc, item) => line.includes(item) || acc,
-    false
-  );
+  return arr.reduce((acc, item) => line.includes(item) || acc, false)
 }
 
 glob(path.join(__dirname, "../../2web2ui/src/**/*.scss"), {}, (err, files) => {
   const json = files.reduce((acc, file) => {
     const content = fs.readFileSync(file, "utf8")
     const lines = content.split("\n").reduce((acc, line, i) => {
-
       if (includes(line, cssIncludes) && !includes(line, cssExcludes)) {
         acc.push({
           file: file.split("/").pop(),
@@ -79,15 +72,15 @@ glob(path.join(__dirname, "../../2web2ui/src/**/*.scss"), {}, (err, files) => {
 
   currentContent[formattedDate] = { css: json.length }
 
-  if (shouldWriteFile) {
-    fs.writeFileSync(
-      path.join(
-        path.join(__dirname, "../src/raw-data"),
-        `${builtFilename}-css-now.json`
-      ),
-      JSON.stringify({ date: formattedDate, data: json })
-    )
-  }
+  // if (shouldWriteFile) {
+  //   fs.writeFileSync(
+  //     path.join(
+  //       path.join(__dirname, "../data"),
+  //       `${builtFilename}-css-now.json`
+  //     ),
+  //     JSON.stringify({ date: formattedDate, data: json })
+  //   )
+  // }
   console.log(
     `✅  CSS Tokenizables for ${formattedDate} (${json.length} found)`
   )
@@ -107,7 +100,6 @@ glob(path.join(__dirname, "../../2web2ui/src/**/*.js"), {}, (err, files) => {
     .reduce((acc, file) => {
       const content = fs.readFileSync(file, "utf8")
       const lines = content.split("\n").reduce((acc, line, i) => {
-
         if (includes(line, jsIncludes) && !includes(line, jsExcludes)) {
           acc.push({
             file: file.split("/").pop(),
@@ -131,19 +123,19 @@ glob(path.join(__dirname, "../../2web2ui/src/**/*.js"), {}, (err, files) => {
     js: json.length,
   }
   fs.writeFileSync(
-    path.join(path.join(__dirname, "../src/raw-data"), `token-count-raw.json`),
+    path.join(path.join(__dirname, "../data"), `token-count-raw.json`),
     JSON.stringify(currentContent)
   )
 
-  if (shouldWriteFile) {
-    fs.writeFileSync(
-      path.join(
-        path.join(__dirname, "../src/raw-data"),
-        `${builtFilename}-js-now.json`
-      ),
-      JSON.stringify({ date: formattedDate, data: json })
-    )
-  }
+  // if (shouldWriteFile) {
+  //   fs.writeFileSync(
+  //     path.join(
+  //       path.join(__dirname, "../data"),
+  //       `${builtFilename}-js-now.json`
+  //     ),
+  //     JSON.stringify({ date: formattedDate, data: json })
+  //   )
+  // }
   console.log(
     `✅  JS Tokenizables for ${formattedDate} (${json.length} found)\n`
   )

@@ -1,8 +1,8 @@
 const fs = require("fs")
 const path = require("path")
 
-const builtFilename = "raw.json"
-const importPath = path.join(__dirname, "../src/raw-data/raw.txt")
+const builtFilename = "scss.json"
+const importPath = path.join(__dirname, "../data/scss.txt")
 const content = fs.readFileSync(importPath, "utf8")
 const commits = content.split("\ncommit")
 
@@ -31,15 +31,15 @@ const json = commits.map(commit => {
   }, [])
 
   return {
-    commit: parts[0].replace("commit", "").trim(),
+    commit: parts[0] ? parts[0].replace("commit", "").trim() : "",
     date,
     changes,
   }
 })
 
 fs.writeFileSync(
-  path.join(path.join(__dirname, "../src/raw-data"), builtFilename),
+  path.join(path.join(__dirname, "../data"), builtFilename),
   JSON.stringify(json)
 )
-fs.unlinkSync(path.join(__dirname, "../src/raw-data/raw.txt"))
+fs.unlinkSync(path.join(__dirname, "../data/scss.txt"))
 console.log(`✅  Scss commit data generated (${json.length} commits found)`)

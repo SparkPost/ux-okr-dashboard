@@ -10,7 +10,7 @@ const builtFilename = "size"
 const formattedDate = moment(DATE).format("YYYY-MM-DD")
 
 let currentContent = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "../src/raw-data/size.json"), "utf8")
+  fs.readFileSync(path.join(__dirname, "../data/size.json"), "utf8")
 )
 currentContent = { ...currentContent, [formattedDate]: {} }
 
@@ -37,7 +37,7 @@ const js = jsFiles
 
 currentContent[formattedDate] = { ...currentContent[formattedDate], js }
 fs.writeFileSync(
-  path.join(__dirname, `../src/raw-data/${builtFilename}.json`),
+  path.join(__dirname, `../data/${builtFilename}.json`),
   JSON.stringify(currentContent)
 )
 

@@ -4,83 +4,7 @@ const path = require("path")
 const glob = require("glob")
 const chalk = require("chalk")
 const _ = require("lodash")
-
-const matchboxComponents = [
-  "ActionList",
-  "ActionList.Action",
-  "Banner",
-  "Box",
-  "Button",
-  "Button.Group",
-  "Checkbox",
-  "Checkbox.Group",
-  "CodeBlock",
-  "Column",
-  "Columns",
-  "ComboBox",
-  "ComboBoxMenu",
-  "ComboBoxTextField",
-  "DatePicker",
-  "Drawer",
-  "Drawer.Header",
-  "Drawer.Content",
-  "EmptyState",
-  "Error",
-  "Expandable",
-  "Grid",
-  "Grid.Column",
-  "HelpText",
-  "Inline",
-  "KeyboardKey",
-  "Label",
-  "Layout",
-  "Layout.Section",
-  "Layout.SectionTitle",
-  "Modal",
-  "Modal.LEGACY",
-  "OptionalLabel",
-  "Page",
-  "Pager",
-  "Pagination",
-  "Panel",
-  "Panel.LEGACY",
-  "Panel.Section",
-  "Panel.LEGACY.Section",
-  "Panel.Header",
-  "Popover",
-  "Portal",
-  "ProgressBar",
-  "Radio",
-  "Radio.Group",
-  "RadioCard",
-  "RadioCard.Group",
-  "ScreenReaderOnly",
-  "Select",
-  "Slider",
-  "Snackbar",
-  "Spinner",
-  "Stack",
-  "Table",
-  "Table.Row",
-  "Table.Cell",
-  "Table.HeaderCell",
-  "Tabs",
-  "Tag",
-  "Text",
-  "TextField",
-  "Toggle",
-  "ThemeProvider",
-  "Tooltip",
-  "UnstyledLink",
-  "WindowEvent",
-]
-
-let currentContent = JSON.parse(
-  fs.readFileSync(
-    path.join(__dirname, "../src/raw-data/component.json"),
-    "utf8"
-  )
-)
+const matchboxComponents = require("./component-list")
 
 const data = {}
 
@@ -127,7 +51,7 @@ glob(
       parse(sourceFile, fileName)
     })
     fs.writeFileSync(
-      path.join(__dirname, "../src/raw-data/component-breakdown.json"),
+      path.join(__dirname, "../data/component-breakdown.json"),
       JSON.stringify(data)
     )
     console.log(chalk.green.bold(`Component usage generated\n`))
