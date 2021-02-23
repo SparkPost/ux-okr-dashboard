@@ -1,8 +1,18 @@
 import { ThemeProvider, Box } from "@sparkpost/matchbox"
+import { createGlobalStyle } from "styled-components"
+
+const GlobalStyle = createGlobalStyle`
+  
+  svg path {
+    
+    transition: 0.3s;
+  }
+`
 
 function App({ Component, pageProps }) {
   return (
     <ThemeProvider>
+      <GlobalStyle />
       <Box maxWidth="1200px" my="800" mx="auto">
         <Component {...pageProps} />
       </Box>

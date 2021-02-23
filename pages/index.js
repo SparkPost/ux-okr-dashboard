@@ -34,14 +34,16 @@ export default function Home() {
         </Box>
         <Box gridColumn="1/7">
           <Panel>
-            <Panel.SubHeader>Component Breakdown</Panel.SubHeader>
+            <Panel.SubHeader>
+              Component Usage – Matchbox vs. 2web2ui
+            </Panel.SubHeader>
             <Panel.Section>
               <LineChart
                 data={componentFormatted}
                 yKey="is"
                 yKey2="isNot"
                 xKey="date"
-                height="400"
+                height="450"
                 labelMap={{
                   isNot: "2web2ui",
                   is: "matchbox",
@@ -57,7 +59,7 @@ export default function Home() {
         </Box>
         <Box gridColumn="1/4">
           <Panel>
-            <Panel.SubHeader>CSS Size</Panel.SubHeader>
+            <Panel.SubHeader>SCSS Line Count</Panel.SubHeader>
             <Panel.Section>
               <LineChart
                 data={sizeFormatted}
@@ -70,7 +72,7 @@ export default function Home() {
         </Box>
         <Box gridColumn="4/7">
           <Panel>
-            <Panel.SubHeader>Style Components Size</Panel.SubHeader>
+            <Panel.SubHeader>Styled Components Line Count</Panel.SubHeader>
             <Panel.Section>
               <LineChart
                 data={styledFormatted}

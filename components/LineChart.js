@@ -85,6 +85,7 @@ function LineChart(props) {
     showTooltip({
       tooltipData: { ...d, y2TooltipTop: yScale(y2(d)) + margin.top },
       tooltipLeft: coords.x,
+      // tooltipLeft: xScale(x(d)) + margin.left,
       tooltipTop: yScale(y(d)) + margin.top,
     })
   }
@@ -94,13 +95,13 @@ function LineChart(props) {
       <Group left={margin.left} top={margin.top}>
         <AxisLeft
           scale={yScale}
-          stroke="#e0e0e0"
+          stroke="#d9e0e6"
           numTicks={5}
           hideTicks
           tickLabelProps={() => ({
             fill: "#555",
             fontSize: 10,
-            dx: "0em",
+            dx: "0.3em",
             dy: "0.3em",
             textAnchor: "end",
           })}
@@ -111,15 +112,15 @@ function LineChart(props) {
           scale={yScale}
           width={xMax}
           height={yMax}
-          stroke="#e0e0e0"
+          stroke="#d9e0e6"
           numTicks={5}
         />
         <AxisBottom
           top={yMax}
           scale={xScale}
           numTicks={4}
-          stroke="#e0e0e0"
-          tickStroke="#e0e0e0"
+          stroke="#d9e0e6"
+          tickStroke="#d9e0e6"
           tickLabelProps={() => ({
             fill: "#555",
             fontSize: 11,
@@ -133,7 +134,7 @@ function LineChart(props) {
           x={d => xScale(x(d))}
           y={d => yScale(y(d))}
           stroke="#8c40ff"
-          strokeWidth={2}
+          strokeWidth={tooltipOpen ? 4 : 2}
         />
         {yKey2 && (
           <LinePath
@@ -141,7 +142,7 @@ function LineChart(props) {
             x={d => xScale(x(d))}
             y={d => yScale(y2(d))}
             stroke="#ff5760"
-            strokeWidth={2}
+            strokeWidth={tooltipOpen ? 4 : 2}
           />
         )}
         <Bar
@@ -182,8 +183,8 @@ function LineChart(props) {
         <>
           <Line
             from={{ x: tooltipLeft, y: margin.top }}
-            to={{ x: tooltipLeft, y: height - margin.bottom }}
-            stroke="#d0d0d0"
+            to={{ x: tooltipLeft, y: height - margin.bottom - 20 }}
+            stroke="#a2adb8"
             strokeWidth={1}
             pointerEvents="none"
           />
