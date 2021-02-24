@@ -24,7 +24,7 @@ function LineChart(props) {
     labelMap,
     labelCalc,
   } = props
-  const sorted = _.sortBy(data, ["date"])
+  const sorted = _.sortBy(data, [xKey])
 
   const {
     tooltipData,

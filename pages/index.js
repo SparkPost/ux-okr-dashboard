@@ -1,20 +1,25 @@
 import Head from "next/head"
 import { Box, Panel } from "@sparkpost/matchbox"
 import LineChart from "../components/LineChart"
+import BarChart from "../components/BarChart"
 import tokenCountData from "../data/token-count-raw.json"
 import styledData from "../data/styled-component.json"
 import sizeData from "../data/size.json"
 import componentData from "../data/component.json"
-import styled from "styled-components"
+import breakdownData from "../data/component-breakdown.json"
 
-function formatData(d) {
-  return Object.keys(d).map(key => ({ date: key, ...d[key] }))
+function formatData(d, yKey = "date") {
+  return Object.keys(d).map(key => ({ [yKey]: key, ...d[key] }))
 }
 
 const tokenCountFormatted = formatData(tokenCountData)
 const styledFormatted = formatData(styledData)
 const componentFormatted = formatData(componentData)
 const sizeFormatted = formatData(sizeData)
+const breakdownFormatted = Object.keys(breakdownData).map(key => ({
+  key,
+  value: breakdownData[key],
+}))
 
 export default function Home() {
   return (
@@ -57,7 +62,20 @@ export default function Home() {
             </Panel.Section>
           </Panel>
         </Box>
-        <Box gridColumn="1/4">
+        <Box gridColumn="1/4" gridRow="span 4">
+          <Panel height="100%">
+            <Panel.SubHeader>Matchbox Component Usage</Panel.SubHeader>
+            <Panel.Section>
+              <BarChart
+                data={breakdownFormatted}
+                yKey="key"
+                xKey="value"
+                height="1350"
+              />
+            </Panel.Section>
+          </Panel>
+        </Box>
+        <Box gridColumn="4/7">
           <Panel>
             <Panel.SubHeader>SCSS Line Count</Panel.SubHeader>
             <Panel.Section>
@@ -83,7 +101,7 @@ export default function Home() {
             </Panel.Section>
           </Panel>
         </Box>
-        <Box gridColumn="1/4">
+        <Box gridColumn="4/7">
           <Panel>
             <Panel.SubHeader>CSS Tokenizables</Panel.SubHeader>
             <Panel.Section>
