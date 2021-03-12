@@ -1,4 +1,4 @@
-export default [
+module.exports = [
   "ActionList",
   "ActionList.Action",
   "Banner",
